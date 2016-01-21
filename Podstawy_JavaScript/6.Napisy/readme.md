@@ -12,7 +12,7 @@ W zdaniu "Mam ochotę na burgera" zamień słowo "burgera" na "sałatę".
 
 ## Ćwiczenie 2
 
-Podany string będący adresem email rozdziel na dwie części względem elementu @ 
+Podany string będący adresem email rozdziel na dwie części względem elementu @. 
 
 Przykład: 
 
@@ -20,7 +20,11 @@ Przykład:
 
 ## Ćwiczenie 3
 
-W zdaniu "Myślenie nie jest łatwe, ale można się do niego przyzwyczaić."  - znajdź i wypisz słowo "łatwe".
+Podany tablicę złąc używając znaku "-" . 
+
+Przykład: 
+
+```["kontakt", "coderslab.pl"]``` -> ```kontakt-coderslab.pl```
 
 ## Ćwiczenie 4
 
@@ -28,22 +32,26 @@ Zamień zdanie na duże litery:
 "Puchatek spojrzał na obydwie łapki. Wiedział, że jedna z nich jest prawa, i wiedział jeszcze, że kiedy już się ustaliło, 
 która z nich jest prawa, to druga była lewą, ale nigdy nie wiedział, jak zacząć."
 
+Dodatkowe:
+Zamien tylko pierwsze litery każdego słowa na duże.
+
 ## Ćwiczenie 5
-
-Zamień zdanie na duże litery: 
-"Puchatek spojrzał na obydwie łapki. Wiedział, że jedna z nich jest prawa, i wiedział jeszcze, że kiedy już się ustaliło, 
-która z nich jest prawa, to druga była lewą, ale nigdy nie wiedział, jak zacząć."
-
-## Ćwiczenie 6
 
 Napisz funkcję, która odwróci znaki w przekazynym do niej jako argument stringu.
 
-
 Przykład:
-
+```
 input -> "Hello'
-
 output -> 'olleH'
+```
 
+## Ćwiczenie 6
+
+Napisz funkcję ```getMiddleLetter(string)```, która będzie zwracać środkwą literę z podanego napisu. jeżeli napis ma nieparzystą ilość liter zwróć 2 środkowe litery.
+Przykład:
+```
+input -> "Hello'
+output -> 'l'
+```
 
 

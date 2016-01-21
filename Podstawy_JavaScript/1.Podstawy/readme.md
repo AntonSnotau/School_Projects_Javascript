@@ -13,7 +13,17 @@ Zwróć uwagę jak zmieniają się typy danych w zależności od tego jakie typy
 ## Ćwiczenie 2
 Stwórz tablicę z listą swoich ulubionych owoców. Nastepnie:
 1. Wypisz pierwszy owoc w konsoli,
-2. Wypisz ostatni owoc z konsoli (skorzystaj z atrybutu ```length```).
+2. Wypisz ostatni owoc w konsoli (skorzystaj z atrybutu ```length```).
+
+## Ćwiczenie 3
+Zajrzyj do pliku cwiczenie3.js - jest tam przykładowa funkcja która oblicza proste równania. Niestety nie działą ona dobrze - znajdź błąd i go napraw tak żeby funkcja działała. 
+Napisz doatkowe testy żeby sprawdzić czy wszystkie przypadki działają.
+
+## Ćwiczenie 4
+Zajrzyj do pliku cwiczenie4.js - jest tam przykładowa funkcja która tworzy tablicę z liczbami. Niestety nie działą ona dobrze - znajdź błąd i go napraw tak żeby funkcja działała. 
+
+
+
 
 
 

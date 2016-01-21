@@ -8,7 +8,7 @@ Pamiętaj, żeby oddzielać ćwiczenia komentarzami i pisać czytelny i dobrze s
 ## Ćwiczenie 1
 
 Stwórz obiekt samochód, utwórz dla niego odpowiednie atrybuty i metody. 
-Samochód powinien trąbić, powinien posiadać informacje o kolorze, marce i numerze rejestracyjnym.
+Samochód powinien trąbić (metoda która wypisuje w koncoli informacje o tym że samochód trąbi) i jeździć (metoda która wypisuje w koncoli informacje o tym że samochód jedzie), powinien posiadać informacje o kolorze, marce i numerze rejestracyjnym.
 Wypisz wszystkie te informacje w konsoli.
 
 Przykład:
@@ -20,13 +20,17 @@ Przykład:
 ## Ćwiczenie 2
 
 Do obiektu samochód z ćwiczenia pierwzego dodaj tablicę z listą dat przeglądów. Dodaj ten nowy atrybut poza 
-ciałem obiektu. Wypisz daty przeglądów w konsoli.
+ciałem obiektu. Dodaj też metodę które dodaje wpis do tej tablicy (uzyj ```this```) i metodę która wyświetla wszystkie przeglądy samochodu (użyj ```this```)
 
 ## Ćwiczenie 3
 
 Stwórz obiekt robot. Utwórz dla niego odpowienie atrybuty: name, age, oraz metodę: sayHello, której zadaniem będzie wypisanie
 imienia robota. Następnie zmień imię robota np. robot.name = "Sony" i przetestuj jego metodę sayName() jeszcze raz.
 
+## Ćwiczenie 3
+
+Stwórz obiekt robot. Utwórz dla niego odpowienie atrybuty: name, age, oraz metodę: sayHello, której zadaniem będzie wypisanie
+imienia robota. Następnie zmień imię robota np. robot.name = "Sony" i przetestuj jego metodę sayName() jeszcze raz.
 
 ## Ćwiczenie 4
 
