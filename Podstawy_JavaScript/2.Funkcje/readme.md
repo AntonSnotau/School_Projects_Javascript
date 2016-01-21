@@ -4,14 +4,6 @@ Zadania wprowadzające do tworzenia funkcji.
 Ćwiczenia powinny być rozwiązane w pliku app.js. 
 Pamiętaj, żeby oddzielać ćwiczenia komentarzami i pisać czytelny i dobrze sformatowany kod. 
 
-Przykład:
-```/**```
- ```* Add two numbers```
-``` * @param  {number} a - first number```
-``` * @param {number} b - second number```
- ```* @return {number} ```
- ```*/```
-
 
 ## Ćwiczenie 1
 Napisz funkcję miksującą warzywa np. o nazwie miksowanie, która jako argument będzie przyjmowała warzywo.
