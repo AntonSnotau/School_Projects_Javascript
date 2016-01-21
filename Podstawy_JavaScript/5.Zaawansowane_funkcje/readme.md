@@ -34,6 +34,6 @@ Uruchom funkcję jeden raz po upływie 2 sekund. (Niech funkcja będzie anonimow
 
 Stwórz w pliku app.js kolejną funkcję, której celem będzie wyświetlenie napisu "jestem wywoływana co 2 sekundy".
 (Niech funkcja będzie anonimowa i niech będzie parametrem funkcji setInterval). 
-Zobacz wynik w konsoli, a następnie również w konsoli wyczyść setInterval. 
+Zobacz wynik w konsoli, a następnie również w konsoli wyczyść setInterval.
 Pamiętaj, aby setInterval podstawić pod zmienną. Zmienna ta będzie przechowywała id, które będzie Ci potrzebne do usunięcia setInterval-a.
 
