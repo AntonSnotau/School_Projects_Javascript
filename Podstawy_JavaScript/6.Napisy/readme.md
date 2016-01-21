@@ -16,7 +16,7 @@ Podany string będący adresem email rozdziel na dwie części względem element
 
 Przykład: 
 
-kontakt@coderslab.pl -> ```["kontakt", "coderslab.pl"]```
+```kontakt@coderslab.pl``` -> ```["kontakt", "coderslab.pl"]```
 
 ## Ćwiczenie 3
 
