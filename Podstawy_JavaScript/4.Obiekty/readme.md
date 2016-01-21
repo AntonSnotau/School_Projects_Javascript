@@ -20,12 +20,12 @@ Przykład:
 ## Ćwiczenie 2
 
 Do obiektu samochód z ćwiczenia pierwzego dodaj tablicę z listą dat przeglądów. Dodaj ten nowy atrybut poza 
-ciałem obiektu. Wypisz daty przeglądów w konsoli
+ciałem obiektu. Wypisz daty przeglądów w konsoli.
 
 ## Ćwiczenie 3
 
 Stwórz obiekt robot. Utwórz dla niego odpowienie atrybuty: name, age, oraz metodę: sayHello, której zadaniem będzie wypisanie
-imienia robota. Następnie zmień imię robota np. robot.name = "Sony" i przetestuj jego metodą sayName() jeszcze raz.
+imienia robota. Następnie zmień imię robota np. robot.name = "Sony" i przetestuj jego metodę sayName() jeszcze raz.
 
 
 ## Ćwiczenie 4
