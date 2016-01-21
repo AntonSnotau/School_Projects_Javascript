@@ -50,7 +50,9 @@ Pamiętaj o stworzeniu odpowiedniego komentarza.
 Stwórz funkcję o nazwie addArrayElements, która będzie zwracała sumę elementów  tablicy, przekazanej do niej  jako argument. Pamiętaj o stworzeniu odpowiedniego komentarza.
 
 Przykład:
+
 input -> [2,3,4]
+
 output -> 9
 
 
