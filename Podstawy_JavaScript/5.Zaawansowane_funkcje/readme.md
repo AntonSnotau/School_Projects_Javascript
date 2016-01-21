@@ -1,4 +1,4 @@
-# JacaScript - Ćwiczenia - Zaawansowane funkcj
+# JacaScript - Ćwiczenia - Zaawansowane funkcje
 
 Zadania wprowadzające do korzystania z zaawansowanych aspektów funkcji. 
 Ćwiczenia powinny być rozwiązane w plikach w katalogu js. 
