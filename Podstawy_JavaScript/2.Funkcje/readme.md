@@ -12,7 +12,9 @@ tekst zwrócony przez funkcję.
 Pamiętaj o stworzeniu odpowiedniego komentarza.
 
 Przykład:
+
 input -> "marchewka"
+
 output -> "zmiksowana marchewka"
 
 ## Ćwiczenie 2
@@ -20,7 +22,9 @@ Napisz funkcję, która przyjmuje jako parametry dwie liczby i wyświetla więks
 Pamiętaj o stworzeniu odpowiedniego komentarza.
 
 Przykład:
+
 input -> 5, 29
+
 output -> 29
 
 ## Ćwiczenie 3
@@ -28,8 +32,10 @@ Stwórz funkcję która będzie zwracała sumę 3 liczb przekazaną jako argumen
 Pamiętaj o stworzeniu odpowiedniego komentarza.
 
 Przykład:
-```input -> 1,2,3```
-```output -> 6```
+
+input -> 1,2,3
+
+output -> 6
 
 ## Ćwiczenie 4
 Stwórz funkcję anonimową i przypisz ją do zmiennej. Zadaniem funkcji jest wypisanie 10 razy 
@@ -39,21 +45,27 @@ Pamiętaj o stworzeniu odpowiedniego komentarza.
 
 ## Ćwiczenie 5
 Przetestuj zadanie:
+
 ```var name = "Monika";```
+
 ```function getName() {```
+
 ```    var name = "Kulfon";```
+
 ```    return name;```
+
 ```}```
 
 ```console.log(name);```
+
 Dlaczego zostaje wypisane imię Monika, a nie Kulfon?
 
 ## Ćwiczenie 6
 Stwórz funkcję o nazwie addArrayElements, która będzie zwracała sumę elementów  tablicy, przekazanej do niej  jako argument. Pamiętaj o stworzeniu odpowiedniego komentarza.
 
 Przykład:
-```input -> [2,3,4]```
-```output -> 9```
+input -> [2,3,4]
+output -> 9
 
 
 
