@@ -17,6 +17,7 @@ input -> "marchewka"
 
 output -> "zmiksowana marchewka"
 
+
 ## Ćwiczenie 2
 Napisz funkcję, która przyjmuje jako parametry dwie liczby i wyświetla większą z nich.
 Pamiętaj o stworzeniu odpowiedniego komentarza.
@@ -43,24 +44,9 @@ Stwórz funkcję anonimową i przypisz ją do zmiennej. Zadaniem funkcji jest wy
 Pamiętaj o stworzeniu odpowiedniego komentarza.
 
 
+
+
 ## Ćwiczenie 5
-Przetestuj zadanie:
-
-```var name = "Monika";```
-
-```function getName() {```
-
-```    var name = "Kulfon";```
-
-```    return name;```
-
-```}```
-
-```console.log(name);```
-
-Dlaczego zostaje wypisane imię Monika, a nie Kulfon?
-
-## Ćwiczenie 6
 Stwórz funkcję o nazwie addArrayElements, która będzie zwracała sumę elementów  tablicy, przekazanej do niej  jako argument. Pamiętaj o stworzeniu odpowiedniego komentarza.
 
 Przykład:
