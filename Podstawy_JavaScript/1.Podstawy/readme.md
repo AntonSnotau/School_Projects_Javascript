@@ -23,7 +23,8 @@ Napisz dodatkowe testy żeby sprawdzić czy wszystkie przypadki działają.
 Zajrzyj do pliku cwiczenie4.js - jest tam przykładowa funkcja która tworzy tablicę z liczbami. Niestety nie działą ona dobrze - znajdź błąd i go napraw tak żeby funkcja działała. 
 
 
-
+## Ćwiczenie 5
+Napisz pętlę for, która będzie iterowała od 0 do 15. W każdej iteracji, sprawdź czy bieżąca liczba jest parzysta czy nieparzysta i wyświetl informacje w konsoli.
 
 
 
