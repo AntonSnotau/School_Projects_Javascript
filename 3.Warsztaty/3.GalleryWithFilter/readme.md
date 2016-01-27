@@ -1,4 +1,4 @@
-# JavaScript - Ćwiczenia - Slider
+# JavaScript - Warsztaty - Galleria z filtrem
 
 Zadanie będzie polagało na napiszaniu galerii, w której będziemy mogli chować obrazki z odpowiednimi tagami.
 Po wpisaniu odpowiedniego tagu w inpucie i kliknięciu guzika, obrazki które są opisane tym tagiem powinny zniknąć/pojaawić się
