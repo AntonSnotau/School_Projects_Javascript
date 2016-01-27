@@ -1,4 +1,4 @@
-# JavaScript - Ćwiczenia - Slider
+# JavaScript - Warsztaty - Galeria
 
 Zadanie będzie polagało na napisaniu prostej galerii. Galeria po naciśnięciu któregoś zdjęcia powinna pokazywać to zdjęcie w trybie pełnego ekranu.
 Będzie się to diziało poprzez dodanie nowego elementu w chwili, w której ktoś kliknie na którymś obrazku.
