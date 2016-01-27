@@ -13,6 +13,7 @@ Lista zazwyczaj spełnia następujące zależności:
 3. Wszsytkie obrazki mają tą samą szerokość i wysokość,
 4. Wszystkie obrazki poza jednym są niewidoczne.
 
+
 Dodaj w odpowiednie miejsce klasę ```slider``` w kodzie HTML.
 
 ## Punkt 2
@@ -48,8 +49,8 @@ Użyj odpowiednich zmiennych (czyli tablicy z elementami listy oraz zmiennej kt�
 Wykonaj czynności w evencvie dla guzika pokazującego poprzedni obbrazek analogicznie do punku 5.
 
 ## Punkt 7
-Sprawdź jak działa twoja strona. Zobacz czy znajdziesz jakiś problem.
+Sprawdź jak działa twoja strona. Widzisz jakieś problemy związane ze sliderem?
 
 ## Punkt 8
-W poprzednim punkcie powinieneś zauważyć że po wielokrotnym naciśnięciu guzika do przodu (albo do tyłu) obrazki znikają ze strony. Dzieje się tak dlatego że zmienna określająca numer widocznego obrazka przyjmuje niepoprawną wartość (mniejsza od 0 lub większa niż ilość elementów w naszej tablicy).
-W eventach dodaj if-a który sprawdzi czy wartość nie wyszła poza zakres, a jeżeli wyszła to nastawi ją na poprawną wartość (jeżeli zmienna jest mniejsza od 0 naztaw jej 0, a jeżeli wartość jest więcksz lub równa ilości elementów to nastaw ją na ilość elementów - 1).
+W poprzednim punkcie powinieneś zauważyć, że po wielokrotnym naciśnięciu guzika do przodu (albo do tyłu) obrazki znikają ze strony. Dzieje się tak dlatego, że zmienna określająca numer widocznego obrazka przyjmuje niepoprawną wartość (mniejsza od 0 lub większa niż ilość elementów w naszej tablicy).
+W eventach dodaj if-a, który sprawdzi czy wartość nie wyszła poza zakres, a jeżeli wyszła to nastawi ją na poprawną wartość (jeżeli zmienna jest mniejsza od 0 naztaw jej 0, a jeżeli wartość jest więcksza lub równa ilości elementów to nastaw ją na ilość elementów - 1).
