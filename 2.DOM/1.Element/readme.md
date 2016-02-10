@@ -9,7 +9,7 @@ Przeanalizuj kod HTML i JavaScript tego zadania. Wypisz w konsoli wszystkie wcze
 W przypadku tablic przeiteruj (używając np. pętli ```for```) wypisując typ i klasę dla każdego elementu, który znajduje się w tablicy.
 
 ## Ćwiczenie 2
-Wypisz w konsoli wartości ```innerHTML``` i ```outerHTML``` dla zmiennej ```blocks```. Napisz w komentarzu, czym się od siebie różnią.
+Wypisz w konsoli wartości ```innerHTML``` i ```outerHTML``` dla elementów zmiennej ```blocks```. Napisz w komentarzu, czym się od siebie różnią.
 Nastaw wartość ```innerHTML``` na "Nowa wartość diva o klasie blocks". Przeanalizuj, jak zmienił się kod HTML strony.
 
 ## Ćwiczenie 3
