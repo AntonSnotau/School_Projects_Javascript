@@ -7,6 +7,7 @@ document.addEventListener("DOMContentLoaded", function(){
     var childElements = document.querySelector(".oferts").children;
     var banner = document.querySelector(".ban");
     var blocks = document.querySelectorAll(".blocks");
+    var links = document.querySelector(".links").children;
 
     /*
     Poniżej napisz kod rozwiązujący zadania
