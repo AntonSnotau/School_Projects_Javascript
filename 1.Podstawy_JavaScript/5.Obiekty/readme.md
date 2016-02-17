@@ -12,6 +12,7 @@ Samochód powinien mieć następujące atrybuty:
   1. Markę,
   2. Kolor,
   3. Ilość przejechanych kilomertów (na początku 0)
+
 I następujące metody:
   1. ```printCarinfo()``` - metoda powinna wypisywać informacje o samochodzie (jego kolor, markę i ile kilometórw ma przejechane).
   2. ```drive(km)``` - która dodaje do przejechanych kilometrów podaną wartość. Użyj słowa kluczowego ```this``` żeby odwołać się do obiektu w środku metody.
@@ -33,6 +34,7 @@ Stwórz konstruktor dla obiektów ```Rectangle``` który będzie przyjmować inf
 Nastęnie przy pomocy prototypu klasy dodaj do niej następujące metody:
   1. ```getArea()``` - metoda ma zwracać pole powieszchni,
   2. ```getPerimiter()``` - metoda ma zwracać obwód.
+
 Następnie stwórz kilka obiektów i zobacz czy metody działają tak jak powinny.
 
 ## Ćwiczenie 5
@@ -44,4 +46,5 @@ Nastęnie przy pomocy prototypu klasy dodaj do niej następujące metody:
   4. ```divide(num1, num2)``` - metoda ma podzielić przez siebie dwie zmienne i zwrócić wynik. Dodatkowo w tablicy operacji ma zapamiętać napis: "divided ```num1``` by ```num2``` got ```result```" (oczywiście z wartościami zmiennych podstawionymi w odpowienie miejsce).  
   5. ```printOperations()``` - metoda ma wypisać wszystkie operacje zapamiętane w pamięci.
   6. ```clearoperations()``` - metoda ma wyczyścić wszystkie operacje z pamięci.
-Pamiętaj o używaniu ```this```. 
+
+Pamiętaj o używaniu ```this```.
