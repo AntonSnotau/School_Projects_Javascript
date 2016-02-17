@@ -1,35 +1,32 @@
 /**
- * Zmienne globalne i lokalne. Pamiêtasz przenoszenie instrukcji?
+ * Zagnie¿d¿anie funkcji.
  * PrzeœledŸ krok po kroku ka¿d¹ linijkê kodu. Ka¿d¹!
  * Spróbuj napisaæ komentarze dla ka¿dej z linijek kodu
  */
 
 
 //Twój komentarz ...
-var someGlobal = 3;
-
-//Twój komentarz ...
-function someFunction1() {
+function jeden() {
 
     //Twój komentarz ...
-    console.log(someGlobal);
+    var zmienna1 = 1;
 
     //Twój komentarz ...
-    var someGlobal = 5;
+    function dwa() {
+
+        //Twój komentarz ...
+        console.log(zmienna1);
+
+        //Twój komentarz ...
+        var zmienna2 = 3;
+    }
 
     //Twój komentarz ...
-    console.log(someGlobal);
+    dwa();
+
+    //Twój komentarz ...
+    console.log(zmienna2)
 }
 
 //Twój komentarz ...
-function someFunction2() {
-
-    //Twój komentarz ...
-    console.log(someGlobal);
-}
-
-//Twój komentarz ...
-someFunction1();
-
-//Twój komentarz ...
-someFunction2();
+jeden()

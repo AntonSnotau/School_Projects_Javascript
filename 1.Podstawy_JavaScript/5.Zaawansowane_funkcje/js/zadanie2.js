@@ -1,32 +1,24 @@
 /**
- * Zagnie¿d¿anie funkcji.
+ * Funkcje wy¿szego rzêdu.
  * PrzeœledŸ krok po kroku ka¿d¹ linijkê kodu. Ka¿d¹!
  * Spróbuj napisaæ komentarze dla ka¿dej z linijek kodu
  */
 
-
 //Twój komentarz ...
-function jeden() {
+function sortArray() {
 
     //Twój komentarz ...
-    var zmienna1 = 1;
+    var points = [41, 3, 6, 1, 114, 54, 64];
 
     //Twój komentarz ...
-    function dwa() {
-
+    points.sort(function(a, b){
         //Twój komentarz ...
-        console.log(zmienna1);
-
-        //Twój komentarz ...
-        var zmienna2 = 3;
-    }
+        return a-b;
+    });
 
     //Twój komentarz ...
-    dwa();
-
-    //Twój komentarz ...
-    console.log(zmienna2)
+    return points;
 }
 
 //Twój komentarz ...
-jeden()
+sortArray();
