@@ -1,15 +1,14 @@
 # JavaScript - Ćwiczenia - Funkcje
 
-Zadania wprowadzające do tworzenia funkcji. 
-Ćwiczenia powinny być rozwiązane w pliku app.js. 
-Pamiętaj, żeby oddzielać ćwiczenia komentarzami i pisać czytelny i dobrze sformatowany kod. 
+Zadania wprowadzające do tworzenia funkcji.
+Ćwiczenia powinny być rozwiązane w pliku app.js.
+Pamiętaj, żeby oddzielać ćwiczenia komentarzami i pisać czytelny i dobrze sformatowany kod.
 
 
 ## Ćwiczenie 1
-Napisz funkcję miksującą warzywa np. o nazwie miksowanie, która jako argument będzie przyjmowała warzywo.
-Zadaniem funkcji jest zmiksowanie warzywa i zwrócenie zmiksowanej papki. Wypisz w konsoli (nie w funkcji, funkcja tylko zwraca)
-tekst zwrócony przez funkcję.
-Pamiętaj o stworzeniu odpowiedniego komentarza.
+Napisz funkcję miksującą nazwie miksowanie, która jako argument będzie przyjmowała napis.
+Zadaniem funkcji jest zmiksowanie tego napisu (poprzez dodanie do niego drugiego napisu "zmiksowana "). Funkcja ma zwracać nowo powstały napis (poprzez ```return```).
+Następnie wypisz w konsoli to co zwróciła ta funkcja.
 
 Przykład:
 ```
@@ -18,31 +17,25 @@ output -> "zmiksowana marchewka"
 ```
 
 ## Ćwiczenie 2
-Napisz funkcję, która przyjmuje jako parametry dwie liczby i wyświetla większą z nich.
+Napisz funkcję, która przyjmuje jako parametry dwie liczby i zwraca (poprzez ```return```) większą z nich.
 
 Przykład:
 ```
 input -> 5, 29
 output -> 29
 ```
-## Ćwiczenie 3
-Napisz funkcję, która przyjmuje jako parametry dowolną ilość liczb i wyświetla większą z nich. Skożystaj z zmiennej ```arguments```.
 
-Przykład:
-```
-input -> 5, 29, 6, 4, 34, 56, 2, 3
-output -> 56
-```
 ## Ćwiczenie 3
-Stwórz funkcję która będzie zwracała sumę 3 liczb przekazaną jako argumenty.
+Stwórz funkcję która będzie zwracała (poprzez ```return```) sumę 3 liczb przekazaną jako argumenty.
 
 Przykład:
 ```
 input -> 1,2,3
 output -> 6
 ```
+
 ## Ćwiczenie 4
-Stwórz funkcję anonimową i przypisz ją do zmiennej. Zadaniem funkcji jest wypisanie 10 razy 
+Stwórz funkcję anonimową i przypisz ją do zmiennej. Zadaniem funkcji jest wypisanie 10 razy
 "Wszędzie i zawsze pisząc kod używam funkcji oraz pilnuję, żeby nie tworzyć zmiennych globalnych".
 
 ## Ćwiczenie 5
@@ -51,8 +44,11 @@ Wynajem trwa 1 dzień - koszt pokoju 200zł/dzień
 Wynajem trwa 2-3 dni - koszt pokoju 180zł/dzień
 Wynajem trwa 4-7 dni - koszt pokoju 160zł/dzień
 Wynajem trwa 8+ dni - koszt pokoju 150zł/dzień.
- 
-Dodatkowo za każdy pełny tydzień przysługuje 50zł zniżki. 
+
+Dodatkowo za każdy pełny tydzień przysługuje 50zł zniżki. Do wyliczenia pełnych tygodni użyj poniższego kodu:
+```
+var numbersOfWeeks = Math.floor(days / 7); //Math.floor jest funkcją która zaokrlągla liczbę w dół.
+```
 Przykład:
 ```
 input -> 8
@@ -60,13 +56,13 @@ output -> 1150
 ```
 
 ## Ćwiczenie 6
-Napisz funkcję ```rockPaperScissors(player1, player2)``` która będzie pobierać dwa napisy i zwracać infromacje kto wygrał. Poprawne napisy przyjmowane przez funkcjię to: papier, nożyce, kamień.
+Napisz funkcję ```rockPaperScissors(player1, player2)``` która będzie pobierać dwa napisy i zwracać infromacje kto wygrał. Poprawne napisy przyjmowane przez funkcjię to: papier, nozyce, kamien.
 
 Funkcja ma zwracać jeden z 4 napisów:
-"Gracz 1 wygrał",
-"Gracz 2 wygrał"
+"Gracz 1 wygral",
+"Gracz 2 wygral"
 "Remis",
-"Błędne informacje"
+"Blędne informacje"
 
 Przykład:
 ```
@@ -76,15 +72,13 @@ output -> 1150
 
 ## Ćwiczenie 7
 Napisz funkcję ```calculateTip(amount, raiting)``` która będzie pobierać dwa kwotę i opis słowny obsługi. Funkcja ma zwracać albo kwotę napiwku, albo napis "Opis nieczytelny". opis może przyjmować następujące wartości:
-"Bardzo dobra obsługa" => 25% napiwku,
-"Dobra obsługa" => 20% napiwku,
-"Średnia obsługa" =>15% napiwku,
-"Zła obsługa" => 0% napiwku.
+"Bardzo dobra obsluga" => 25% napiwku,
+"Dobra obsluga" => 20% napiwku,
+"Średnia obsluga" =>15% napiwku,
+"Zła obsluga" => 0% napiwku.
 
 Przykład:
 ```
-input -> 100, "Bardzo dobra obsługa"
+input -> 100, "Bardzo dobra obsluga"
 output -> 25
 ```
-
-
