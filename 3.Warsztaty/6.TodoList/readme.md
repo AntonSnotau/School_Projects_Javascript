@@ -3,7 +3,7 @@
 Zadanie będzie polagało na napisaniu listy zadań do zrobienia. Strona ma spełniać następujące założenia:
 
 1. Po wpisaniu zadania i naciśnięciu guzika ```Add task``` do listy, ma zostać dodane nowe zadanie (z wpisaną odpowiednią treścią), wraz z guzikiem służącym do oznaczenia tego zadania jako zrobione i guzikiem służącym do usunięcia tego zadania. (przykładowe zadanie jest zakomentowane w HTML)
-2. Po naciśnięciu na guzik Complete przy zadaniu, treść zadania ma się zmienić na kolor czerwony (jeżeli zadanie nie jest zrobione). Jeżeli zadanie jest już zrobione to po naciśnięciu guzika, ma znowu wyświetlać się jako zadanie nie zrobione.
+2. Po naciśnięciu na guzik Complete przy zadaniu, treść zadania ma się zmienić na kolor czerwony (jeżeli zadanie jest zrobione). Po ponownym naciśniećiu guzika Complete, zadanie znowu wraca do koloru domylśnego (czyli nie zrobione).
 3. Po naciśniećiu guzika Delete zadanie ma zniknąć z lisy.
 4. Po naciśnięciu guzika Remove finished tasks wszystkie zadania zrobione mają zniknąć z listy.
 5. Zadanie może być dodane tylko wtedy, jeżeli jego treść posiada więcej niż 5, a mniej niż 100 znaków.
