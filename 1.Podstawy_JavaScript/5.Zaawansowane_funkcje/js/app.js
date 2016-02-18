@@ -11,4 +11,3 @@ var id = setInterval(function() {
 
 
 clearInterval(id)
-
