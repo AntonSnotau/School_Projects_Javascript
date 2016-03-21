@@ -5,7 +5,7 @@
 
 function canCreateTriagle(a, b, c){
     // do liczb odwołuj się przez zmienne a, b i c
-    // pamiętaj o zwruceniu poprawnych danych (return true albo return false)
+    // pamiętaj o zwróceniu poprawnych danych (return true albo return false)
 }
 
 console.log("z liczb 5, 6, 4 można stworzyć trojkat (powinno zwrócić true) ". canCreateTriagle(5, 6, 4));
