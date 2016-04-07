@@ -8,9 +8,9 @@ Pamiętaj, żeby pisać czytelny i dobrze sformatowany kod.
 
 ## Ćwiczenie 1
 Uruchom stronę przygotowaną dla zadania 1. Sprawdź w konsoli, czy są jakieś błędy. Następnie:
-1. Przenieś tag ```<script>``` do sekcji ```<head>```. Zobacz, co się zmieniło w działaniu skryptu. Spróbuj to wytłumaczyć.
-2. Stwórz event ```DOMContentLoaded``` dla elementu ```document``` i przenieś kod do środka tego eventu. Czy poprawiło to sytuację?
-3. Przenieś znowu tag ```<script>``` na koniec pliku - czy jest jakaś różnica?
+  1. Przenieś tag ```<script>``` do sekcji ```<head>```. Zobacz, co się zmieniło w działaniu skryptu. Spróbuj to wytłumaczyć.
+  2. Stwórz event ```DOMContentLoaded``` dla elementu ```document``` i przenieś kod do środka tego eventu. Czy poprawiło to sytuację?
+  3. Przenieś znowu tag ```<script>``` na koniec pliku - czy jest jakaś różnica?
 
 ## Ćwiczenie 2
 Na stonie znajduje się guzik. Podepnij do niego event, który na kliknięcie spowoduje, że w konsoli wyświelti się napis "Hura! Działa!".
@@ -40,8 +40,8 @@ Pamiętaj, żeby wszystko pisać w evencie ```DOMContentLoaded```.
 
 ## Ćwiczenie 7
 Na stronie znajdują się zagnieżdżone elmenty. Do każdego dopisane są eventy. Użyj metod ```stopPropagagation``` i ```stopImidiatePropagation``` w taki sposób, aby:
-1. Wywoływały się eventy dla elementu 1 i 2 a nie wywoływał się event dla elementu 3,
-2. Wywoływały się wszystkie eventy dla elementu 4 i pierwszy event dla elementu 5.
+  1. Wywoływały się eventy dla elementu 1 i 2 a nie wywoływał się event dla elementu 3,
+  2. Wywoływały się wszystkie eventy dla elementu 4 i pierwszy event dla elementu 5.
 
 ## Ćwiczenie 8
 Na stronie znajdują się dwa elementy, które pokazują wielkość okna. Dopisz event do okna (element ```window```), który spowoduje, że elementy te będą pokazywały poprawne wartości nawet po przeskalowaniu okna.
