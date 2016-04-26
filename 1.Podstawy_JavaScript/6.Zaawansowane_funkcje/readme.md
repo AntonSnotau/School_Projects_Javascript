@@ -1,11 +1,11 @@
 # JacaScript - Ćwiczenia - Zaawansowane funkcje
 
 Zadania wprowadzające do korzystania z zaawansowanych aspektów funkcji.
-Ćwiczenia powinny być rozwiązane w plikach w katalogu js.
+Ćwiczenia powinny być rozwiązane w plikach w katalogu js, chyba, że treść zadania wskazuje inaczej.
 Pamiętaj, żeby oddzielać ćwiczenia komentarzami i pisać czytelny i dobrze sformatowany kod.
 
 ## Ćwiczenie 1
-Zajrzyj do pliku zadanie1.js i przetstuj działanie obu funkcji.
+Zajrzyj do pliku zadanie1.js i przetestuj działanie obu funkcji.
 Dlaczego funkcja o nazwie jeden nie ma dostępu do zmiennej o nazwiezmienna2?
 Dla potwierdzenia zrozumienia tematu spróbuj napisać komentarze dla każdej z linijek kodu w tym pliku.
 
@@ -15,7 +15,7 @@ Dla potwierdzenia zrozumienia tematu spróbuj napisać komentarze dla każdej z 
 
 ## Ćwiczenie 3
 Napisz funkcję, która przyjmuje jako parametry dowolną ilość liczb i wyświetla większą z nich.
-Skożystaj ze zmiennej ```arguments```.
+Skorzystaj ze zmiennej ```arguments```.
 
 Przykład:
 ```
