@@ -1,4 +1,4 @@
-# JacaScript - Ćwiczenia DOM - Podstawy działania na elemencie DOM
+# JavaScript - Ćwiczenia DOM - Podstawy działania na elemencie DOM
 
 Zadania wprowadzające do korzystania z elementu DOM. 
 Cwiczenia powinny być rozwiązane w pliku app.js. 

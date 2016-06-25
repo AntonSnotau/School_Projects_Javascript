@@ -1,4 +1,4 @@
-# JacaScript - Ćwiczenia - Tablice wielowymiarowe
+# JavaScript - Ćwiczenia - Tablice wielowymiarowe
 
 Zadania wprowadzające do korzystania z tablic wielowymiarowych.
 Ćwiczenia powinny być rozwiązane w pliku app.js, chyba, że treść zadania wskazuje inaczej.

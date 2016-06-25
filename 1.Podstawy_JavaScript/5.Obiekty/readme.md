@@ -1,4 +1,4 @@
-# JacaScript - Ćwiczenia - Obiekty
+# JavaScript - Ćwiczenia - Obiekty
 
 Zadania wprowadzające do korzystania z tworzenia i używania obiektów.
 Ćwiczenia powinny być rozwiązane w pliku app.js, chyba, że treść zadania wskazuje inaczej.

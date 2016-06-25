@@ -1,4 +1,4 @@
-# JacaScript - Cwiczenia DOM - Tworzenie i usuwanie elementów
+# JavaScript - Cwiczenia DOM - Tworzenie i usuwanie elementów
 
 Zadania z dodawania i usuwania elementów ze strony HTML.
 

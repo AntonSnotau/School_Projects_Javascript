@@ -1,4 +1,4 @@
-# JacaScript - Cwiczenia DOM - Inputy i Formularze
+# JavaScript - Cwiczenia DOM - Inputy i Formularze
 
 Zadania sprawdzające umiejętność korzystania z inputów i formularzy.
 

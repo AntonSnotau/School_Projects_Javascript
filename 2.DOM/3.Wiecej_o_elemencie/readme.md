@@ -1,4 +1,4 @@
-# JacaScript - Cwiczenia DOM - Więcej o elemencie
+# JavaScript - Cwiczenia DOM - Więcej o elemencie
 
 Zadania z wpływania na element DOM.
 

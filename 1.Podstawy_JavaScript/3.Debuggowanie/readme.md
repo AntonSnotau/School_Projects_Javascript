@@ -1,4 +1,4 @@
-# JacaScript - Ćwiczenia - Debuggowanie
+# JavaScript - Ćwiczenia - Debuggowanie
 
 Ćwiczenia powinny być rozwiązane w pliku app.js, chyba, że treść zadania wskazuje inaczej.
 Pamiętaj, żeby oddzielać ćwiczenia komentarzami i pisać czytelny i dobrze sformatowany kod.

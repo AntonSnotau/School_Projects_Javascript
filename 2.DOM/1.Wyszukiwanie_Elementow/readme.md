@@ -1,4 +1,4 @@
-# JacaScript - Cwiczenia DOM - Wyszukiwanie elementów
+# JavaScript - Cwiczenia DOM - Wyszukiwanie elementów
 
 Zadania z wyszukiwania elementów na stronie HTML.
 Ćwiczenia powinny być rozwiązane w pliku app.js. 
