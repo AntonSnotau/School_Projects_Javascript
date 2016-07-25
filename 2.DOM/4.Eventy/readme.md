@@ -17,11 +17,11 @@ Na stonie znajduje się guzik. Podepnij do niego event, który na kliknięcie sp
 Pamiętaj, żeby wszystko pisać w evencie ```DOMContentLoaded```.
 
 ## Ćwiczenie 3
-Na stronie znajdują się 3 guziki i 3 liczniki (elementy ```span``` o klasie ```counter```). Do każdego guzika dopisz event, który spowoduje, że przypisany do niego licznik zwiększy swoją wartość o 1 po klinknięciu w guzik.
+Na stronie znajdują się 3 guziki i 3 liczniki (elementy ```span``` o klasie ```counter```). Do każdego guzika dopisz event, który spowoduje, że przypisany do niego licznik zwiększy swoją wartość o 1 po kliknięciu w guzik.
 Pamiętaj, żeby wszystko pisać w evencie ```DOMContentLoaded```.
 
 ## Ćwiczenie 4
-Na stronie znajdują się 3 guziki i jeden licznik. Napisz **jeden** wspólny event dla wszystkich guzików, który spowoduje, że licznik zwiększy wartość o 1 po klinknięciu w guzik.
+Na stronie znajdują się 3 guziki i jeden licznik. Napisz **jeden** wspólny event dla wszystkich guzików, który spowoduje, że licznik zwiększy wartość o 1 po kliknięciu w guzik.
 Pamiętaj, żeby wszystko pisać w evencie ```DOMContentLoaded```. 
 
 ## Ćwiczenie 5
@@ -39,7 +39,7 @@ Wyszukaj zarówno położenie myszki globalne (czyli odległość od górnego le
 Pamiętaj, żeby wszystko pisać w evencie ```DOMContentLoaded```. 
 
 ## Ćwiczenie 7
-Na stronie znajdują się zagnieżdżone elmenty. Do każdego dopisane są eventy. Użyj metod ```stopPropagagation``` i ```stopImidiatePropagation``` w taki sposób, aby:
+Na stronie znajdują się zagnieżdżone elementy. Do każdego dopisane są eventy. Użyj metod ```stopPropagation``` i ```stopImmediatePropagation``` w taki sposób, aby:
   1. Wywoływały się eventy dla elementu 1 i 2 a nie wywoływał się event dla elementu 3,
   2. Wywoływały się wszystkie eventy dla elementu 4 i pierwszy event dla elementu 5.
 
