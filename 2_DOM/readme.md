@@ -1,5 +1,4 @@
-# JavaScript &ndash; zadania
-
+# JavaScript &ndash; zadania &ndash; DOM
 ## Jak rozwiązywać zadania?
 
 Wykonaj następujące kroki:
@@ -9,6 +8,7 @@ Wykonaj następujące kroki:
 3. Rozwiąż zadania i [**skomituj**][ref-commit] zmiany do swojego repozytorium.
 4. [**Wypchnij**][ref-push] zmiany do swojego repozytorium na GitHubie.
 5. Stwórz [**pull request**][pull-request] do oryginalnego repozytorium, gdy skończysz wszystkie zadania.
+
 
 
 Pamiętaj o dodawaniu komentarzy z numerem zadania, np.:
@@ -21,7 +21,6 @@ Pamiętaj o dodawaniu komentarzy z numerem zadania, np.:
 { Kod do zadania 2 }
 
 ...
-
 ```
 
 <!-- Links -->
