@@ -23,8 +23,9 @@ Na stronie znajduje się select i trzy obrazki.
 Każdy z obrazków jest przypisany do jednego z wyborów w selekcie. Napisz kod javaScript w taki sposób, żeby widoczny był tylko ten obrazek, który został wybrany.
 
 ## Zadanie 4
-Na stronie znajduje się formularz, który odsyła do strony ```http://www.htmlcodetutorial.com/cgi-bin/mycgi.pl```.
+Na stronie znajduje się formularz, który odsyła do strony ```http://api.coderslab.pl/showpost.php```.
 Napisz walidację tego formularza w taki sposób, żeby wysyłany był tylko i wyłącznie wtedy, kiedy spełnione zostaną następujące warunki:
+
 1. Email zawiera w sobie @.
 2. Imię jest dłuższe niż pięć znaków.
 3. Nazwisko jest dłuższe niż pięć znaków.
