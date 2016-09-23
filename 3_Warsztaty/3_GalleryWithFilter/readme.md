@@ -33,7 +33,7 @@ Zapisz ten tekst do zmiennej.
 Zmień eventy w taki sposób, żeby dodatkowo wypisywały wszystkie tagi dla wszystkich obrazków (czyli musisz użyć pętli i data-setu).
 
 ## Punkt 6
-Zmień eventy w taki sposób, żeby wyświetlały tylko i wyłącznie tagi, w których znajduje się napis z inputu (uzyj do tego ```substring```).
+Zmień eventy w taki sposób, żeby wyświetlały tylko i wyłącznie tagi, w których znajduje się napis z inputu (uzyj do tego ```indexOf```).
 
 ## Punkt 7
 Zmień eventy, w taki sposób, żeby zamiast wyświetlać tag dla obrazka (cały czas tylko dla tych, które mają odpowiedni tag), obrazek ten dostawał lub tracił (w zależności od guzika) klasę ```invisible```.
