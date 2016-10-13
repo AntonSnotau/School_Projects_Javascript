@@ -1,8 +1,11 @@
 <img alt="Logo" src="http://coderslab.pl/wp-content/themes/coderslab/svg/logo-coderslab.svg" width="400">
 
-# JavaScript &ndash; zadania
+# JavaScript
+> Kilka ważnych informacji
 
-## Jak rozwiązywać zadania?
+Przed przystąpieniem do rozwiązywania zadań przeczytaj poniższe wskazówki
+
+## Jak zacząć?
 
 Wykonaj następujące kroki:
 

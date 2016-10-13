@@ -1,10 +1,10 @@
 # Obiekty &ndash; zadania
 
-Odpowiedzi wpisz w pliku **app.js**, chyba że treść polecenia wskazuje inaczej.
+> Odpowiedzi wpisz w pliku **app.js**, chyba że treść polecenia wskazuje inaczej.
 Pamiętaj, żeby oddzielać ćwiczenia komentarzami i pisać czytelny, dobrze sformatowany kod.
 
 
-#### Zadanie 1
+#### Zadanie 1 (~ 5min - 10 min)
 Stwórz obiekt samochód, utwórz dla niego odpowiednie atrybuty i metody.
 ###### Atrybuty:
 1. markę,
