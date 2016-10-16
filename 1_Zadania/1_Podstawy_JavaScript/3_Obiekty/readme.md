@@ -3,27 +3,53 @@
 > Odpowiedzi wpisz w pliku **app.js**, chyba że treść polecenia wskazuje inaczej.
 Pamiętaj, żeby oddzielać ćwiczenia komentarzami i pisać czytelny, dobrze sformatowany kod.
 
+#### Zadanie 1 (~ 5min - 7min)
+Stwórz obiekt book. Dopisz do niego następujące właściwości:
+1. title,
+2. author,
+3. numberOfPages
 
-#### Zadanie 1 (~ 5min - 10 min)
-Stwórz obiekt samochód, utwórz dla niego odpowiednie atrybuty i metody.
-###### Atrybuty:
-1. markę,
-2. kolor,
-3. liczbę przejechanych kilometrów (na początku **0**).
+Wypisz te właściwości w konsoli.
+
+
+#### Zadanie 2 (~ 5min - 7min)
+Stwórz obiekt person. Dopisz do niego następujące właściwości i metodę:
+1. name,
+2. age,
+3. sayHello - wypisującą string ```hello```
+
+Wypisz właściwości w konsoli, wywołaj metodę.
+
+#### Zadanie 3 (~ 10min - 15 min)
+Stwórz obiekt car, utwórz dla niego odpowiednie właściwości i metody.
+###### Właściwości:
+1. brand,
+2. color,
+3. numberOfKilometers (na początku **0**).
 
 ###### Metody:
-1. ```printCarinfo()``` &ndash; metoda powinna wypisywać informacje o samochodzie (kolor, markę i liczbę przejechanych kilometrów).
+1. ```printCarinfo()``` &ndash; metoda powinna zwracać informacje o samochodzie (kolor, markę i liczbę przejechanych kilometrów).
 2. ```drive(km)``` &ndash; która dodaje do przejechanych kilometrów podaną wartość. Użyj słowa kluczowego ```this```, żeby odwołać się do obiektu w środku metody.
 
-#### Zadanie 2
-Do obiektu samochód z zadania pierwszego dodaj tablicę z listą dat przeglądów (niech będą to zwykłe napisy). Dodaj ten nowy atrybut poza ciałem obiektu.
+#### Zadanie 3  (~ 10min - 15 min)
+Do obiektu car z zadania poprzedniego dodaj tablicę z listą dat przeglądów (niech będą to zwykłe napisy). Dodaj tą nową właściwość poza ciałem obiektu.
 Dodaj też następujące metody:
  1. metodę dodającą wpis do tej tablicy,
- 2. metodę wyświetlającą wszystkie przeglądy samochodu.
+ 2. metodę zwracającą wszystkie przeglądy samochodu.
 
 Użyj słowa kluczowego ```this```, żeby odwołać się do obiektu w środku metody.
 
-#### Zadanie 3
+#### Zadanie 4
+Stwórz obiekt bird. Utwórz dla niego właściwości:
+1. type
+2. name
+
+oraz metodę:
+1. ```getType()```, która zwróci jakiego rodzaju jest ptak.
+
+Użyj słowa kluczowego ```this```, żeby odwołać się do obiektu w środku metody.
+
+#### Zadanie 5
 W pliku **zadanie03.js** możesz znaleźć przykładowy konstruktor dla robota. Konstruktor oczekuje, że podasz tylko imię robota.
 Wszystkie roboty mają od razu kilka metod (metody dodane są przez prototypy).
 Utwórz kilka robotów i poszukaj, czy w napisanym kodzie nie ma błędów.
