@@ -16,11 +16,14 @@ Wypisz te właściwości w konsoli.
 Stwórz obiekt person. Dopisz do niego następujące właściwości i metodę:
 1. name,
 2. age,
-3. sayHello - wypisującą string ```hello```
+3. sayHello() - wypisującą string "hello"
 
 Wypisz właściwości w konsoli, wywołaj metodę.
 
-#### Zadanie 3 (~ 10min - 15 min)
+#### Zadanie 3 (~ 5min -7min)
+Stwórz obiekt train. Sprawdź za pomocą operatora ```instanceof``` czy jest instancją wbudowanego typu Object.
+
+#### Zadanie 4 (~ 10min - 15 min)
 Stwórz obiekt car, utwórz dla niego odpowiednie właściwości i metody.
 ###### Właściwości:
 1. brand,
@@ -31,38 +34,52 @@ Stwórz obiekt car, utwórz dla niego odpowiednie właściwości i metody.
 1. ```printCarinfo()``` &ndash; metoda powinna zwracać informacje o samochodzie (kolor, markę i liczbę przejechanych kilometrów).
 2. ```drive(km)``` &ndash; która dodaje do przejechanych kilometrów podaną wartość. Użyj słowa kluczowego ```this```, żeby odwołać się do obiektu w środku metody.
 
-#### Zadanie 3  (~ 10min - 15 min)
+```JavaScript
+mercedes.printCarinfo(); => "Czarny Mercedes, 150km"
+mercedes.drive(20);
+mercedes.printCarinfo(); => "Czerny mercedes, 170km"
+```
+
+#### Zadanie 5  (~ 10min - 15 min)
 Do obiektu car z zadania poprzedniego dodaj tablicę z listą dat przeglądów (niech będą to zwykłe napisy). Dodaj tą nową właściwość poza ciałem obiektu.
 Dodaj też następujące metody:
  1. metodę dodającą wpis do tej tablicy,
  2. metodę zwracającą wszystkie przeglądy samochodu.
 
 Użyj słowa kluczowego ```this```, żeby odwołać się do obiektu w środku metody.
+Nie używaj narazie prototypów.
 
-#### Zadanie 4
-Stwórz obiekt bird. Utwórz dla niego właściwości:
-1. type
-2. name
 
-oraz metodę:
-1. ```getType()```, która zwróci jakiego rodzaju jest ptak.
+#### Zadanie 6 (~ 5min - 10 min)
+Stwórz obiekt bird. Utwórz dla niego właściwości ```type``` oraz ```name```, a także metodę  ```getType()```, która zwróci jakiego rodzaju jest ptak.
 
-Użyj słowa kluczowego ```this```, żeby odwołać się do obiektu w środku metody.
+Sprawdź za pomocą instanceof czy obiekt bird jest instancją Object. Zapisz rezultat w komentarzu.
 
-#### Zadanie 5
+
+#### Zadanie 7 (~ 2min - 5min)
+Stwórz zmienną ```myString``` i przypisz do niej dowolny tekst. Za pomocą instanceof sprawdź i zapisz w komentarzu czego instancją jest ta zmienna.
+
+Stwórz zmienną ```myNumber``` i przypisz do niej dowolną liczbę. Za pomocą instanceof sprawdź i zapisz w komentarzu czego instancją jest ta zmienna.
+
+
+#### Zadanie 8 (~ 10min - 15 min)
 W pliku **zadanie03.js** możesz znaleźć przykładowy konstruktor dla robota. Konstruktor oczekuje, że podasz tylko imię robota.
-Wszystkie roboty mają od razu kilka metod (metody dodane są przez prototypy).
+Metody dodane są do prototypu funkcji.
 Utwórz kilka robotów i poszukaj, czy w napisanym kodzie nie ma błędów.
+Nie bój się sprawdzić w konsoli jak wyglądają poszczególne roboty oraz sam konstruktor.
 
-#### Zadanie 4
-Stwórz konstruktor dla obiektów ```Rectangle```, który będzie przyjmować informację na temat długości i szerokości nowo stworzonej figury.
-Następnie przy pomocy prototypu klasy dodaj do niej następujące metody:
+#### Zadanie 9 (~ 10min - 15 min)
+Stwórz obiekt ```Rectangle```, który będzie przyjmować informację na temat długości i szerokości nowo stworzonej figury.
+Niech obiekt posiada następujące metody:
   1. ```getArea()``` &ndash; metoda ma zwracać pole powierzchni,
   2. ```getPerimiter()``` &ndash; metoda ma zwracać obwód.
 
-Następnie stwórz kilka obiektów i zobacz, czy metody działają tak jak powinny.
+Następnie:
+- stwórz 3 instancje za pomocą Object.create(),
+- sprawdź za pomocą  metody ```hasOwnProperty()``` w jaki sposób nowo powstałe instancje mają dostęp do metod ```getArea``` oraz ```getPermiter```. Zapisz rezultaty w komentarzu.
+- zobacz, czy metody działają tak jak powinny.
 
-#### Zadanie 5
+#### Zadanie 10 (~ 15min - 20min)
 Stwórz konstruktor dla obiektów ```Calculator```. Konstruktor ma nie przyjmować żadnych danych. Każdy nowo stworzony obiekt powinien mieć pustą tablicę, w której będzie trzymać historię wywołanych operacji.
 Następnie przy pomocy prototypu klasy dodaj do niej następujące metody:
   1. ```add(num1, num2)``` &ndash; metoda ma dodać do siebie dwie zmienne i zwrócić wynik. Dodatkowo w tablicy operacji ma zapamiętać napis: "added ```num1``` to ```num2``` got ```result```" (oczywiście z wartościami zmiennych podstawionymi w odpowiednie miejsce).

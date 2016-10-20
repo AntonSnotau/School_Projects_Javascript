@@ -3,4 +3,50 @@
 # JavaScript - Snippety
 > Krótkie kawałki kodu, które pokazują zależności, rozwiązują popularne problemy oraz pokazują jak używać niektórych funkcji.
 
-#### 1.Tmat
+#### 1. Tworzenie obiektów na podstawie konstruktora
+```JavaScript```
+function Animal(type) {
+    this.type = type;
+}
+
+Animal.prototype.sayVoice = function(voice) {
+    console.log(voice)
+}
+
+var lion = new Animal('lion');
+lion.sayVoice("roar");
+
+var pigeon = new Animal('pigeon');
+pigeon.sayVoice("gru gru");
+```
+#### 2. Tworzenie obiektów za pomocą Object.create()
+
+```JavaScriptvar
+ Animal = {
+    type: "",
+    sayVoice: function(voice) {
+        console.log(voice)
+    }
+}
+
+var lion = Object.create(Animal);
+lion.type = "lion";
+lion.sayVoice("roar");
+
+
+var pigeon = Object.create(Animal);
+pigeon.type = "pigeon";
+pigeon.sayVoice("gru gru");
+```
+
+#### 3. setInterval
+
+```JavaScript
+var id = setInterval(function() {
+    console.log('jestem wywolywana co 2 sekundy');
+}, 2000 )
+
+
+clearInterval(id)
+
+```
