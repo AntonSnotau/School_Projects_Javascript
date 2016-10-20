@@ -20,14 +20,12 @@ Ustaw wartość ```innerHTML``` na "Nowa wartość diva o klasie blocks". Przean
 
 * Znajdź na stronie element o **id**  ```mainFooter```
 * Stwórz funkcję ```getId(element)```, do której przekaż jako argument znaleziony element
-* pobierz w funkcji id elementu
-* zwróć id
-
+* pobierz w funkcji nazwę id elementu i zwróć ją
 
 ## Zadanie 4 (~ 10min - 15min)
 
 * Stwórz funkcję ```getTags(elements)```, do której przekaż jako argument zmienną ```childElements``` (pamiętaj o tym, że jest to tablica)
-* stwórz w funkcji nową tablicę i wypełnij ją tagami pobranymi z elementów znajdujących się w ```childElements```
+* stwórz w funkcji nową tablicę i wypełnij ją nazwami tagów pobranymi z elementów znajdujących się w ```childElements```
 * zwróć tą tablicę.
 
 ## Zadanie 5 (~ 5min - 10min)
@@ -40,7 +38,7 @@ Ustaw wartość ```innerHTML``` na "Nowa wartość diva o klasie blocks". Przean
 ## Zadanie 6 (~ 5min - 10min)
 
 * Stwórz funkcję ```getClassInfo(element)```, do której przekaż jako argument zmienną ```banner```
-*  zwróć tablicę z listą klas argumentu.
+*  zwróć tablicę z listą klas, pobraną z przekazanego do funkcji argumentu.
 
 
 ## Zadanie 7 (~ 10min - 15min)
