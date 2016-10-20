@@ -3,25 +3,30 @@
 > Odpowiedzi wpisz w pliku **app.js**, chyba że treść polecenia wskazuje inaczej.
 Pamiętaj, żeby oddzielać ćwiczenia komentarzami i pisać czytelny, dobrze sformatowany kod.
 
-#### Zadanie 1 (~ 5min - 10 min)
+## Zadanie 1 (~ 5min - 10 min)
+
 W pliku **app.js** masz tablicę o nazwie ```task1Array```. Następnie:
   1. Wypisz element znajdujący się w położeniu 3,2.
   2. Wypisz długość tablicy znajdującej się w drugim rzędzie.
   3. Wypisz element znajdujący się w położeniu 4,2.
 
-#### Zadanie 2 (~ 10min - 15 min)
+## Zadanie 2 (~ 10min - 15 min)
+
 W pliku **app.js** masz tablicę o nazwie ```task2Array```.
   1. W pętli wypisz zawartość pierwszego wymiaru naszej tablicy.
   2. W pętli wypisz długość tablic składających się na 2gi wymiar.
   3. W pętli wypisz wszystkie elementy tablicy 2 wymiarowej (musisz użyć do tego zagnieżdżonej pętli **for**).
 
-#### Zadanie 3 (~ 5min - 10 min)
+## Zadanie 3 (~ 5min - 10 min)
+
 Napisz funkcje ```print2DArray```, która będzie przyjmować  jako argument tablicę dwuwymiarową. Następnie funkcja ma wypisać w konsoli zawartość tej tablicy.
 
-#### Zadanie 4 (~ 5min - 10 min)
+## Zadanie 4 (~ 5min - 10 min)
+
 Stwórz ręcznie dwuwymiarową tablicę. Wypisz ją w konsoli za pomocą funkcji z zadania poprzedniego ```print2DArray```.
 
-#### Zadanie 5 (~ 15min - 20 min)
+## Zadanie 5 (~ 15min - 20 min)
+
 Napisz funkcję ```create2DArray```, która przyjmuje dwa argumenty w postaci dwóch liczb całkowitych ```rows``` i ```columns```. Zadaniem funkcji jest stworzenie i zwrócenie dwuwymiarowej tablicy o podanej liczbie rzędów i kolumn. Każda komórka ma być wypełniona kolejną liczbą całkowitą. Pamiętaj o tym, że tablica ta ma zostać zwrócona przez funkcję inaczej zadanie będzie nie zaliczone.
 Hint: Musisz użyć pętli zagnieżdżonych.
 
