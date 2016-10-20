@@ -5,6 +5,7 @@ Pamiętaj, żeby oddzielać ćwiczenia komentarzami i pisać czytelny, dobrze sf
 
 #### Zadanie 1 (~ 5min - 7min)
 Stwórz obiekt book. Dopisz do niego następujące właściwości:
+
 1. title,
 2. author,
 3. numberOfPages
@@ -14,13 +15,14 @@ Wypisz te właściwości w konsoli.
 
 #### Zadanie 2 (~ 5min - 7min)
 Stwórz obiekt person. Dopisz do niego następujące właściwości i metodę:
+
 1. name,
 2. age,
 3. sayHello() - wypisującą string "hello"
 
 Wypisz właściwości w konsoli, wywołaj metodę.
 
-#### Zadanie 3 (~ 5min -7min)
+#### Zadanie 3 (~ 1min - 2min)
 Stwórz obiekt train. Sprawdź za pomocą operatora ```instanceof``` czy jest instancją wbudowanego typu Object.
 
 #### Zadanie 4 (~ 10min - 15 min)
@@ -50,7 +52,7 @@ Użyj słowa kluczowego ```this```, żeby odwołać się do obiektu w środku me
 Nie używaj narazie prototypów.
 
 
-#### Zadanie 6 (~ 5min - 10 min)
+#### Zadanie 6 (~ 2min - 5 min)
 Stwórz obiekt bird. Utwórz dla niego właściwości ```type``` oraz ```name```, a także metodę  ```getType()```, która zwróci jakiego rodzaju jest ptak.
 
 Sprawdź za pomocą instanceof czy obiekt bird jest instancją Object. Zapisz rezultat w komentarzu.
