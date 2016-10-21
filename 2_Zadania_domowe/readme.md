@@ -33,6 +33,8 @@ Dopisz do konstruktora również metodę ```bloom()```, która będzie zwracała
 
 #### Zadanie 1
 
+Plik HTML do tego zadania to plik **searchDom.html**, a plik js to **searchDom.js**.
+
  - Nie używaj eventu DOMContentLoaded. Skrypt jest wczytany do pliku html przed końcem body.
  - Do każdego podpunktu stwórz odpowiednią funkcję o nazwie podanej w treści zadania.
 
@@ -69,6 +71,8 @@ Dopisz do konstruktora również metodę ```bloom()```, która będzie zwracała
 ### Dzień 3 - DOM
 
 ## Zadanie 1
+
+Plik HTML do tego zadania to plik **pizza.html**, a plik js to **pizza.js**.
 
 Na stronie znajduje się formularz do zamówienia pizzy. W formularzu znajduje się pole z checkboxami, w którym użytkownik może wybrać sobie dodatki.
 Cena każdego z dodatków jest trzymana w atrybucie ```data-price```.
