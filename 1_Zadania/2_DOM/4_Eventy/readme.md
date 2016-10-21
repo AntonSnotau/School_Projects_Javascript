@@ -1,30 +1,33 @@
-# JavaScript &ndash; zadania
 # Eventy (zdarzenia)
 
+> Odpowiedzi wpisz w odpowiednich plikach, chyba że treść polecenia wskazuje inaczej.
+Pamiętaj, żeby oddzielać ćwiczenia komentarzami i pisać czytelny, dobrze sformatowany kod.
 
-Każde zadanie ma swój plik **HTML** i powinno być rozwiązane w osobnym pliku JavaScript (puste pliki są już przygotowane w odpowiednim folderze).
-Pamiętaj, żeby pisać czytelny, dobrze sformatowany kod.
+## Zadanie 1 (~ 10min - 15min)
 
-
-## Zadanie 1
 Uruchom stronę przygotowaną dla zadania 1. Sprawdź w konsoli, czy są jakieś błędy. Następnie:
   1. Przenieś tag ```<script>``` do sekcji ```<head>```. Zobacz, co się zmieniło w działaniu skryptu. Spróbuj to wytłumaczyć.
   2. Stwórz event ```DOMContentLoaded``` dla elementu ```document``` i przenieś kod do środka tego eventu. Czy poprawiło to sytuację?
   3. Przenieś znowu tag ```<script>``` na koniec pliku &ndash; czy jest jakaś różnica?
+Zapisz spostrzeżenia w komentarzu.
 
-## Zadanie 2
-Na stronie znajduje się guzik. Podepnij do niego event, który na kliknięcie spowoduje, że w konsoli wyświetli się napis "Hura! Działa!".
+## Zadanie 2 (~ 5min - 7min)
+
+Na stronie znajduje się guzik. Podepnij do niego event, który po kliknięciu spowoduje, że w konsoli wyświetli się napis "Hura! Działa!".
 Pamiętaj, żeby wszystko pisać w evencie ```DOMContentLoaded```.
 
-## Zadanie 3
+## Zadanie 3 (~ 5min - 10min)
+
 Na stronie znajdują się trzy guziki i trzy liczniki (elementy ```span``` o klasie ```counter```). Do każdego guzika dopisz event, który spowoduje, że po kliknięciu w guzik przypisany do niego licznik zwiększy swoją wartość o jeden.
 Pamiętaj, żeby wszystko pisać w evencie ```DOMContentLoaded```.
 
-## Zadanie 4
+## Zadanie 4  (~ 5min - 10min)
+
 Na stronie znajdują się trzy guziki i jeden licznik. Napisz jeden wspólny event dla wszystkich guzików, który spowoduje, że po kliknięciu w guzik licznik zwiększy wartość o jeden.
 Pamiętaj, żeby wszystko pisać w evencie ```DOMContentLoaded```.
 
-## Zadanie 5
+## Zadanie 5  (~ 10min - 15min)
+
 Na stronie znajdują się trzy elementy ```div```. Napisz **jeden** wspólny event dla nich wszystkich, który będzie zmieniał kolor tła tylko w klikniętym **divie**. Użyj do tego słowa kluczowego ```this```.
 Pamiętaj, żeby wszystko pisać w evencie ```DOMContentLoaded```.
 
@@ -34,15 +37,18 @@ Pamiętaj, żeby wszystko pisać w evencie ```DOMContentLoaded```.
 var randomColor = "#" + Math.floor(Math.random()*16777215).toString(16);
 ```
 
-## Zadanie 6
+## Zadanie 6  (~ 10min - 15min)
+
 Na stronie znajduje się jeden element **div**. Napisz dla niego event, który będzie wypisywał położenie kursora myszy w chwili, gdy znajduje się nad tym elementem.
 Wyszukaj zarówno położenie kursora globalne (czyli odległość od górnego lewego rogu okna), jak i lokalne (czyli odległość od lewego górnego rogu elementu).
 Pamiętaj, żeby wszystko pisać w evencie ```DOMContentLoaded```.
 
-## Zadanie 7
+## Zadanie 7  (~ 10min - 15min)
+
 Na stronie znajdują się zagnieżdżone elementy. Do każdego dopisane są eventy. Użyj metod ```stopPropagation``` i ```stopImmediatePropagation``` w taki sposób, aby:
   1. Wywoływały się eventy dla elementu pierwszego i drugiego, a nie wywoływał się event dla elementu trzeciego.
   2. Wywoływały się wszystkie eventy dla elementu czwartego i pierwszy event dla elementu piątego.
 
-## Zadanie 8
+## Zadanie 8 (~ 10min - 15min)
+
 Na stronie znajdują się dwa elementy, które pokazują wielkość okna. Dopisz event do okna (element ```window```), który spowoduje, że elementy te będą pokazywały poprawne wartości nawet po przeskalowaniu okna.

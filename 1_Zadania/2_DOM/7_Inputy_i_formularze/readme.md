@@ -1,28 +1,20 @@
-# JavaScript &ndash; zadania
 # Inputy i Formularze
 
-Zadania sprawdzające umiejętność korzystania z inputów i formularzy.
+> Odpowiedzi wpisz w odpowiednich plikach, chyba że treść polecenia wskazuje inaczej.
+Pamiętaj, żeby oddzielać ćwiczenia komentarzami i pisać czytelny, dobrze sformatowany kod.
 
-Każde zadanie ma swój plik **HTML** i powinno być rozwiązane w osobnym pliku JavaScript (puste pliki są już przygotowane w odpowiednim folderze).
-
-## Zadanie 1
+## Zadanie 1 (~ 5min - 10min)
 
 Na stronie znajduje się formularz do zamówienia. Jest w sekcja odpowiedzialna za wystawienie faktury.
 Napisz kod JavaScript, który spowoduje, że sekcja ta jest widoczna tylko i wyłącznie wtedy, kiedy zaznaczony jest checkbox "Chcę otrzymać fakturę".
 
-## Zadanie 2
-Na stronie znajduje się formularz do zamówienia pizzy. W formularzu znajduje się pole z checkboxami, w którym użytkownik może wybrać sobie dodatki.
-Cena każdego z dodatków jest trzymana w atrybucie ```data-price```.
-Napisz takie eventy, żeby po zaznaczeniu checkoxa wyświetlała się poprawna kwota zamówienia oraz po wysłaniu formularza wyświetlił się alert z wyliczoną kwotą.
-Zwróć uwagę na dwa specjalne checkboksy:
-* none &ndash; powinien odznaczyć wszystkie inne opcje,
-* all &ndash; powinien zaznaczyć wszystkie inne opcje (poza none).
+## Zadanie 3 (~ 10min - 15min)
 
-## Zadanie 3
 Na stronie znajduje się select i trzy obrazki.
 Każdy z obrazków jest przypisany do jednego z wyborów w selekcie. Napisz kod javaScript w taki sposób, żeby widoczny był tylko ten obrazek, który został wybrany.
 
-## Zadanie 4
+## Zadanie 4  (~ 10min - 15min)
+
 Na stronie znajduje się formularz, który odsyła do strony ```http://api.coderslab.pl/showpost.php```.
 Napisz walidację tego formularza w taki sposób, żeby wysyłany był tylko i wyłącznie wtedy, kiedy spełnione zostaną następujące warunki:
 
@@ -32,7 +24,7 @@ Napisz walidację tego formularza w taki sposób, żeby wysyłany był tylko i w
 4. Hasło i hasło drugie są identyczne.
 5. Checkbox musi być zaznaczony.
 
-Warunek dla chętnych. Dodatkowe. Hasło ma mieć co najmniej pięć znaków (w tym co najmniej jedną liczbę i jedną literę).
+Warunek dla chętnych. Dodatkowe. Hasło ma mieć co najmniej pięć znaków (w tym co najmniej jedną liczbę i jedną literę
 
 Zauważ, jak dane wyświetlane są na stronie docelowej (jak ich nazwy są skorelowane z kodem HTML). Spróbuj pozmieniać atrybuty ```name``` i zobacz, jak się zmieniają wysyłane dane (np. sprawdź, co się stanie, jak dwa inputy mają taką samą nazwę).
 Jest to bardzo ważne, ponieważ w ten sposób będziecie się zazwyczaj porozumiewać z backendowcami.
