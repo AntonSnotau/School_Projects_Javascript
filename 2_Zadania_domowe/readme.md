@@ -5,8 +5,6 @@
 
 ### Dzień 1 - Podstawy JavaScript
 
-## Tablice
-
 #### Zadanie 1
 Napisz funkcję ```getNumber```, która ma przyjmować dwa argumenty &ndash; liczbę i tablicę. Funkcja ta ma zwracać wartość true lub false, w zależności od tego czy podana liczba znajduje się w tablicy czy nie.
 
@@ -14,8 +12,6 @@ Napisz funkcję ```getNumber```, która ma przyjmować dwa argumenty &ndash; lic
 getNumber(2, [33, 54, 2, 1, 4, 100]) => true
 getNumber(5, [33, 54, 2, 1, 4, 100] ) => false
 ```
-
-## Tablice wielowymiarowe
 
 #### Zadanie 2
 Napisz funkcję ```createIdentityMatrix```, która przyjmuje dwa argumenty w postaci dwóch liczb całkowitych ```rows``` i ```columns```. Niech funkcja **zwraca** tablicę 2-wymiarową. Niech tablica wygląda w następujący sposób:
@@ -25,8 +21,6 @@ createIdentityMatrix(4,4) =>
 [ [1, 0, 0, 0], [0, 1, 0, 0], [0, 0, 1, 0], [0, 0, 0, 1] ];
  ```
 Jest to tak zwana macierz jednostkowa, czyli taka, która ma na przekątnej jedynki. Musisz użyć pętli zagnieżdżonych. Pamiętaj o tym, że tablica ta ma zostać zwrócona przez funkcję inaczej zadanie będzie nie zaliczone.
-
-## Obiekty
 
 #### Zadanie 3
 Za pomocą kontruktora stwórz funkcję ```Tree```. Niech funkcja ta ma jedną właściwość ```type```, która będzie przechowywać typ drzewa.
@@ -75,7 +69,7 @@ Dopisz do konstruktora również metodę ```bloom()```, która będzie zwracała
 ### Dzień 3 - DOM
 
 
-## Dodatkowe
+### Dodatkowe
 
 #### Zadanie 1 - dodatkowe
 Napisz funkcję ```addTheSameNumbers```, która ma przyjmować dwa argumenty &ndash; liczbę i tablicę. Funkcja ta ma zwracać sumę
