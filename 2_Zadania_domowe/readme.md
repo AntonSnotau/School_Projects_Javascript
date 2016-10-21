@@ -39,6 +39,40 @@ Dopisz do konstruktora również metodę ```bloom()```, która będzie zwracała
 
 #### Zadanie 1
 
+ - Nie używaj eventu DOMContentLoaded. Skrypt jest wczytany do pliku html przed końcem body.
+ - Do każdego podpunktu stwórz odpowiednią funkcję o nazwie podanej w treści zadania.
+
+ * **1. Pobranie informacji z atrybutu data:**
+    - znajdź element o **id** ```menu```,
+    - stwórz funkcję ```getDataInfo(element)``` do której przekaż , jako argument , znaleziony element,
+    - stwórz w funkcji nową tablicę i wypełnij ją wartościami pobranymi z atrybutu data każdego elementu **li**. Zauważ, że
+    elementy **li** to dzieci elementu o id ```menu```.
+    - zwróć tą tablicę.
+
+* **2. Szukanie elementu po id:**
+    - Znajdź element o **id** ```main-contener```.
+    - stwórz funkcję ```getElementClass(element)``` do której przekaż , jako argument , znaleziony element.
+    - stwórz w funkcji tablicę i wypełnij ją nazwamy klas. Pobierz klasy z przekazanego jako argument elementu.
+    - zwróć tablicę.
+
+* **3. Szukanie elementu po klasie:**
+    - Znajdź element o **klasie** ```pink-color```.
+    - stwórz funkcję ```getElementText(element)``` do której przekaż , jako argument , znaleziony element.
+    - zwróć z funkcji tekst, znajdujący się w tym elemencie
+
+* **4. Szukanie elementu po klasie:**
+    - Znajdź elementy o **klasie** ```images```.
+    - stwórz funkcję ```getElementAlt(element)``` do której przekaż , jako argument , znalezione elementy.
+    - stwórz w funkcji tablicę i wypełnij ją wartościami pobranymi z atrybutu alt obrazków. Pobierz te atrybuty z przekazanych jako argument elementów.
+
+* **5. Szukanie elementu po klasie:**
+    - Znajdź elementy o **klasie** ```my-link```.
+    - stwórz funkcję ```getElementHref(element)``` do której przekaż , jako argument , znalezione elementy.
+    - stwórz w funkcji tablicę i wypełnij ją wartościami pobranymi z atrybutu href linków. Pobierz te atrybuty z przekazanych jako argument elementów.
+
+
+
+### Dzień 3 - DOM
 
 
 ## Dodatkowe
