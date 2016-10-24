@@ -39,14 +39,79 @@ pigeon.type = "pigeon";
 pigeon.sayVoice("gru gru");
 ```
 
-#### 3. setInterval
+#### 3. setInterval & clearInterval
 
 ```JavaScript
 var id = setInterval(function() {
     console.log('jestem wywolywana co 2 sekundy');
 }, 2000 )
 
+clearInterval(id);
+```
 
-clearInterval(id)
+#### 4. setTimeOut & clearSetTimeout
 
+#### 5 Różne rodzaje eventów
+
+* click
+```JavaScript
+var button = document.getElementById('send');
+button.addEventListener('click', function(){
+    console.log('hurra kliknięto');
+})
+```
+
+* keyup
+```JavaScript
+var inputField = document.getElementById('name');
+inputField.addEventListener('keyup', function(){
+    console.log('hurra wpisano tekst');
+})
+```
+
+
+* change
+
+
+* hover
+* mouseeneter
+* mouseLeave
+* mousemove
+
+
+#### 6. Pobieranie różnych wartości z elementów z formularza
+* input
+```JavaScript
+var inputField = document.getElementById('card');
+inputField.value;
+```
+
+* checkbox
+```JavaScript
+var checkboxField = document.getElementById('condition')
+checkboxField.checked
+```
+
+* radiobutton
+```JavaScript
+var radioBtn = document.getElementById('radio');
+radioBtn.checked;
+```
+* textarea
+```JavaScript
+var msgField= document.getElementById('message');
+msgField.value;
+```
+* select & option
+
+ Pobranie
+```JavaScript
+var selectField = document.getElementById('infos');
+selectField.options[msgField.selectedIndex].value;
+```
+
+Ustawienie
+```JavaScript
+var selectField = document.getElementById('infos');
+selectField.options[1].selected = true
 ```
