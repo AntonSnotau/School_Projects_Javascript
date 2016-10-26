@@ -3,6 +3,15 @@
 > Odpowiedzi wpisz w odpowiednich plikach, chyba że treść polecenia wskazuje inaczej.
 Pamiętaj, żeby oddzielać ćwiczenia komentarzami i pisać czytelny, dobrze sformatowany kod.
 
+## Zadanie rozwiązywane z wykładowcą
+Otwórz stronę zadanieWykladowca.html
+Na stronie znajduje się tabela podobna do tej z zadania 2. Tym razem przy każdym zamówieniu znajduje się dodatkowo guzik, który służy do usuwania tego zamówienia.
+Dopisz do niego odpowiedni event, który spowoduje, że dane zamówienie zniknie z tablicy. Spróbuj zrobić to w taki sposób, żeby wszystkie guziki korzystały z tego samego eventu (użyj ```this```).
+Pamiętaj o zmianie łącznej kwoty na samym dole tabelki!
+
+-------------------------------------------------------------------------------
+
+## Zadania do samodzielnego wykonania
 
 ## Zadanie 1  (~ 10min - 15min)
 
@@ -21,13 +30,7 @@ Na stronie znajduje się guzik. Musisz dopisać do niego event w taki sposób, �
 
 Na stronie znajduje się lista z wpisami i guzik. Napisz taki event, żeby po kliknięciu w guzik z listy zostały usunięte wszystkie jej dzieci.
 
-## Zadanie 5  (~ 15min - 20min)
-
-Na stronie znajduje się tabela podobna do tej z zadania 2. Tym razem przy każdym zamówieniu znajduje się dodatkowo guzik, który służy do usuwania tego zamówienia.
-Dopisz do niego odpowiedni event, który spowoduje, że dane zamówienie zniknie z tablicy. Spróbuj zrobić to w taki sposób, żeby wszystkie guziki korzystały z tego samego eventu (użyj ```this```).
-Pamiętaj o zmianie łącznej kwoty na samym dole tabelki!
-
-## Zadanie 6 (~ 15min - 20min)
+## Zadanie 5 (~ 15min - 20min)
 
 Na stronie znajdują się dwie listy. Obok każdego wpisu (w obu listach) znajdują się przyciski.
 Napisz taki kod JavaScript, żeby po przyciśnięciu guzika element listy był przenoszony do drugiej listy.

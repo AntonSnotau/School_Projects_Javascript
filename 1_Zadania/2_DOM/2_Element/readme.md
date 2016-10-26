@@ -5,6 +5,16 @@ Pamiętaj, żeby oddzielać ćwiczenia komentarzami i pisać czytelny, dobrze sf
 
 **Nie modyfikuj kodu HTML, chyba że w poleceniu jest napisane inaczej.**
 
+## Zadanie rozwiązywane z wykładowcą
+
+* Stwórz funkcję ```getDatasInfo(elements)```, do której przekaż jako argument zmienną ```links``` (pamiętaj o tym, że jest to tablica)
+* stwórz w funkcji nową tablicę i wypełnij ją wartościami pobranymi z atrybutu **data** każdego elementu li
+* zwróć tą tablicę.
+
+-------------------------------------------------------------------------------
+
+## Zadania do samodzielnego wykonania
+
 ## Zadanie 1 (~ 10min - 15min)
 Przeanalizuj kod HTML i JavaScript. W pliku **app.js** jest przygotowane kilka zmiennych, w których zapisane są
 wyszukane elementy DOM.
@@ -28,20 +38,14 @@ Ustaw wartość ```innerHTML``` na "Nowa wartość diva o klasie blocks". Przean
 * stwórz w funkcji nową tablicę i wypełnij ją nazwami tagów pobranymi z elementów znajdujących się w ```childElements```
 * zwróć tą tablicę.
 
+
 ## Zadanie 5 (~ 5min - 10min)
-
-* Stwórz funkcję ```getDatasInfo(elements)```, do której przekaż jako argument zmienną ```links``` (pamiętaj o tym, że jest to tablica)
-* stwórz w funkcji nową tablicę i wypełnij ją wartościami pobranymi z atrybutu **data** każdego elementu li
-* zwróć tą tablicę.
-
-
-## Zadanie 6 (~ 5min - 10min)
 
 * Stwórz funkcję ```getClassInfo(element)```, do której przekaż jako argument zmienną ```banner```
 *  zwróć tablicę z listą klas, pobraną z przekazanego do funkcji argumentu.
 
 
-## Zadanie 7 (~ 10min - 15min)
+## Zadanie 6 (~ 10min - 15min)
 * Znajdź wszystkie elementy **li**, które są w tagu ```nav```.
 * Stwórz funkcję ```setDataDirection(elements)```, do której przekaż jako argument znalezione elementy.
 * W funkcji nadaj każdemu elementowi **li** atrybut ```data-direction = "top"```, ale tylko dla tych elementów, które nie mają ustawionego tego atrybutu.

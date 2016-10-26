@@ -3,6 +3,16 @@
 > Odpowiedzi wpisz w odpowiednich plikach, chyba że treść polecenia wskazuje inaczej.
 Pamiętaj, żeby oddzielać ćwiczenia komentarzami i pisać czytelny, dobrze sformatowany kod.
 
+## Zadanie rozwiązywane z wykładowcą
+
+Uruchom stronę zadanieWykladowca.html.  Na stronie znajdują się dwa elementy o klasach ```parent``` i ```children```
+Stwórz event, który po najechaniu na element ```parent``` pokaże element ```children```. Zauważ, że element ```children``` ma ustawiony display: none w css.
+Stwórz drugi event, który po zjechaniu z elementów schowa spowrotem element ```children```.
+
+-------------------------------------------------------------------------------
+
+## Zadania do samodzielnego wykonania
+
 ## Zadanie 1 (~ 10min - 15min)
 
 Uruchom stronę przygotowaną dla zadania 1. Sprawdź w konsoli, czy są jakieś błędy. Następnie:
@@ -13,22 +23,22 @@ Zapisz spostrzeżenia w komentarzu.
 
 ## Zadanie 2 (~ 5min - 7min)
 
-Na stronie znajduje się guzik. Podepnij do niego event, który po kliknięciu spowoduje, że w konsoli wyświetli się napis "Hura! Działa!".
+Uruchom stronę przygotowaną dla zadania 2. Na stronie znajduje się guzik. Podepnij do niego event, który po kliknięciu spowoduje, że w konsoli wyświetli się napis "Hura! Działa!".
 Pamiętaj, żeby wszystko pisać w evencie ```DOMContentLoaded```.
 
 ## Zadanie 3 (~ 5min - 10min)
 
-Na stronie znajdują się trzy guziki i trzy liczniki (elementy ```span``` o klasie ```counter```). Do każdego guzika dopisz event, który spowoduje, że po kliknięciu w guzik przypisany do niego licznik zwiększy swoją wartość o jeden.
+Uruchom stronę przygotowaną dla zadania 3. Na stronie znajdują się trzy guziki i trzy liczniki (elementy ```span``` o klasie ```counter```). Do każdego guzika dopisz event, który spowoduje, że po kliknięciu w guzik przypisany do niego licznik zwiększy swoją wartość o jeden.
 Pamiętaj, żeby wszystko pisać w evencie ```DOMContentLoaded```.
 
 ## Zadanie 4  (~ 5min - 10min)
 
-Na stronie znajdują się trzy guziki i jeden licznik. Napisz jeden wspólny event dla wszystkich guzików, który spowoduje, że po kliknięciu w guzik licznik zwiększy wartość o jeden.
+Uruchom stronę przygotowaną dla zadania 4. Na stronie znajdują się trzy guziki i jeden licznik. Napisz jeden wspólny event dla wszystkich guzików, który spowoduje, że po kliknięciu w guzik licznik zwiększy wartość o jeden.
 Pamiętaj, żeby wszystko pisać w evencie ```DOMContentLoaded```.
 
 ## Zadanie 5  (~ 10min - 15min)
 
-Na stronie znajdują się trzy elementy ```div```. Napisz **jeden** wspólny event dla nich wszystkich, który będzie zmieniał kolor tła tylko w klikniętym **divie**. Użyj do tego słowa kluczowego ```this```.
+Uruchom stronę przygotowaną dla zadania 5. Na stronie znajdują się trzy elementy ```div```. Napisz **jeden** wspólny event dla nich wszystkich, który będzie zmieniał kolor tła tylko w klikniętym **divie**. Użyj do tego słowa kluczowego ```this```.
 Pamiętaj, żeby wszystko pisać w evencie ```DOMContentLoaded```.
 
 **Hint**:
@@ -39,16 +49,16 @@ var randomColor = "#" + Math.floor(Math.random()*16777215).toString(16);
 
 ## Zadanie 6  (~ 10min - 15min)
 
-Na stronie znajduje się jeden element **div**. Napisz dla niego event, który będzie wypisywał położenie kursora myszy w chwili, gdy znajduje się nad tym elementem.
+Uruchom stronę przygotowaną dla zadania 6. Na stronie znajduje się jeden element **div**. Napisz dla niego event, który będzie wypisywał położenie kursora myszy w chwili, gdy znajduje się nad tym elementem.
 Wyszukaj zarówno położenie kursora globalne (czyli odległość od górnego lewego rogu okna), jak i lokalne (czyli odległość od lewego górnego rogu elementu).
 Pamiętaj, żeby wszystko pisać w evencie ```DOMContentLoaded```.
 
 ## Zadanie 7  (~ 10min - 15min)
 
-Na stronie znajdują się zagnieżdżone elementy. Do każdego dopisane są eventy. Użyj metod ```stopPropagation``` i ```stopImmediatePropagation``` w taki sposób, aby:
+Uruchom stronę przygotowaną dla zadania 7. Na stronie znajdują się zagnieżdżone elementy. Do każdego dopisane są eventy. Użyj metod ```stopPropagation``` i ```stopImmediatePropagation``` w taki sposób, aby:
   1. Wywoływały się eventy dla elementu pierwszego i drugiego, a nie wywoływał się event dla elementu trzeciego.
   2. Wywoływały się wszystkie eventy dla elementu czwartego i pierwszy event dla elementu piątego.
 
 ## Zadanie 8 (~ 10min - 15min)
-
+Uruchom stronę przygotowaną dla zadania 8.
 Na stronie znajdują się dwa elementy, które pokazują wielkość okna. Dopisz event do okna (element ```window```), który spowoduje, że elementy te będą pokazywały poprawne wartości nawet po przeskalowaniu okna.

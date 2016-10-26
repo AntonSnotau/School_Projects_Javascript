@@ -7,6 +7,20 @@ Pamiętaj, żeby oddzielać ćwiczenia komentarzami i pisać czytelny i dobrze s
 
 **Nie modyfikuj kodu HTML, chyba że w poleceniu jest napisane inaczej.**
 
+## Zadanie rozwiązywane z wykładowcą
+
+(Spójrz na element o klasie ```ex5```)
+
+Zmodyfikuj listę w następujący sposób:
+1. Dodaj atrybut ```data-direction``` nastawiony na wartość ```up``` każdemu elementowi **li**, który nie ma tego atrybutu.
+2. Nastaw kolor tła co drugiego elementu listy na zielony.
+3. Nastaw piątemu elementowi listy **klasę** ```big```.
+4. Nastaw co trzeciemu elementowi podkreślenie.
+
+-------------------------------------------------------------------------------
+
+## Zadania do samodzielnego wykonania
+
 ## Zadanie 1  (~ 15min - 20min)
 (Spójrz na element o klasie ```ex1```)
 
@@ -41,12 +55,3 @@ Na stronie jest proste menu. Zarówno kod HTML jak i CSS jest już do niego przy
 Dodaj do każdego elementu listy atrybut ```data-id``` przyjmujący kolejne liczby całkowite (zaczynając od 1). Rozwiąż to zadanie na dwa sposoby:
 1. Użyj datasetu.
 2. Użyj metody ```setAttribute```.
-
-## Zadanie 5 (~ 10min - 15min)
-(Spójrz na element o klasie ```ex5```)
-
-Zmodyfikuj listę w następujący sposób:
-1. Dodaj atrybut ```data-direction``` nastawiony na wartość ```up``` każdemu elementowi **li**, który nie ma tego atrybutu.
-2. Nastaw kolor tła co drugiego elementu listy na zielony.
-3. Nastaw piątemu elementowi listy **klasę** ```big```.
-4. Nastaw co trzeciemu elementowi podkreślenie.

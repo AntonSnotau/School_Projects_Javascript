@@ -5,6 +5,18 @@ Pamiętaj, żeby oddzielać ćwiczenia komentarzami i pisać czytelny, dobrze sf
 
 **Nie modyfikuj kodu HTML, chyba że w poleceniu jest napisane inaczej.**
 
+## Zadanie rozwiązywane z wykładowcą
+
+
+* **1. Pobranie informacji z atrybutu data:**
+   - znajdź element o **class** ```title```,
+   - stwórz funkcję ```getDataAnimation(element)``` do której przekaż , jako argument , znaleziony element,
+   - stwórz w funkcji nową zmienną i podstaw pod nią wartość pobraną z atrybutu ```data-animation```
+   - zwróć tą wartość
+
+-------------------------------------------------------------------------------
+
+## Zadania do samodzielnego wykonania
 
 ## Zadanie 1 (~ 10min - 15min)
 Wyszukaj na stronie następujące elementy i zapisz je do odpowiednio nazwanych zmiennych:

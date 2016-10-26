@@ -3,17 +3,7 @@
 > Odpowiedzi wpisz w odpowiednich plikach, chyba że treść polecenia wskazuje inaczej.
 Pamiętaj, żeby oddzielać ćwiczenia komentarzami i pisać czytelny, dobrze sformatowany kod.
 
-## Zadanie 1 (~ 5min - 10min)
-
-Na stronie znajduje się formularz do zamówienia. Jest w sekcja odpowiedzialna za wystawienie faktury.
-Napisz kod JavaScript, który spowoduje, że sekcja ta jest widoczna tylko i wyłącznie wtedy, kiedy zaznaczony jest checkbox "Chcę otrzymać fakturę".
-
-## Zadanie 2 (~ 10min - 15min)
-
-Na stronie znajduje się select i trzy obrazki.
-Każdy z obrazków jest przypisany do jednego z wyborów w selekcie. Napisz kod javaScript w taki sposób, żeby widoczny był tylko ten obrazek, który został wybrany.
-
-## Zadanie 3  (~ 20min - 25min)
+## Zadanie rozwiązywane z wykładowcą
 
 Przy rozwiązywaniu tego zadania pamiętaj, aby teksty wypisywane w elementach ```error-message``` i ```success-message``` były identyczne jak w treści zadania.
 
@@ -37,7 +27,21 @@ Warunek dla chętnych. Dodatkowe. Hasło ma mieć co najmniej 6 znaków (w tym c
 Zauważ, jak dane wyświetlane są na stronie docelowej (jak ich nazwy są skorelowane z kodem HTML). Spróbuj pozmieniać atrybuty ```name``` i zobacz, jak się zmieniają wysyłane dane (np. sprawdź, co się stanie, jak dwa inputy mają taką samą nazwę).
 Jest to bardzo ważne, ponieważ w ten sposób będziecie się zazwyczaj porozumiewać z backendowcami.
 
-## Zadanie 4  (~ 20min - 25min)
+-------------------------------------------------------------------------------
+
+## Zadania do samodzielnego wykonania
+
+## Zadanie 1 (~ 5min - 10min)
+
+Na stronie znajduje się formularz do zamówienia. Jest w sekcja odpowiedzialna za wystawienie faktury.
+Napisz kod JavaScript, który spowoduje, że sekcja ta jest widoczna tylko i wyłącznie wtedy, kiedy zaznaczony jest checkbox "Chcę otrzymać fakturę".
+
+## Zadanie 2 (~ 10min - 15min)
+
+Na stronie znajduje się select i trzy obrazki.
+Każdy z obrazków jest przypisany do jednego z wyborów w selekcie. Napisz kod javaScript w taki sposób, żeby widoczny był tylko ten obrazek, który został wybrany.
+
+## Zadanie 3  (~ 20min - 25min)
 
 Na stronie znajduje się tablica z wynikami w lokalnych mistrzostwach piłkarskich. Poniżej znajduje się formularz, który wypełniają wszyscy sędziowie po ukończonych rozgrywkach.
 Napisz kod JavaScript w taki sposób, żeby po wybraniu odpowiednich drużyn nastąpiła walidacja:
@@ -46,7 +50,7 @@ Napisz kod JavaScript w taki sposób, żeby po wybraniu odpowiednich drużyn nas
 
 Jeżeli formularz zostanie zweryfikowany poprawnie, odpowiednia informacja o wyniku spotkania powinna pojawić się w tablicy.
 
-## Zadanie 5 (~ 20min - 25min)
+## Zadanie 4 (~ 20min - 25min)
 Walidacja karty kredytowej.
 
 Zadanie polega na walidacji kart kredytowych wpisywanych w formularz na stronie. Walidacja ma następować w czasie rzeczywistym (czyli po wprowadzeniu każdej cyfry).
@@ -68,6 +72,3 @@ Zasady walidacji kart są uproszczone (nie powinniście ich stosować w rzeczywi
 Jeżeli chcesz poznać prawdziwe zasady walidacji kart kredytowych, to są one opisane tutaj:
 https://en.wikipedia.org/wiki/Bank_card_number
 https://en.wikipedia.org/wiki/Luhn_algorithm
-
-
-## Zadanie 6 (~ 20min - 25min)

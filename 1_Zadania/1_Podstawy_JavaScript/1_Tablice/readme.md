@@ -3,6 +3,18 @@
 > Odpowiedzi wpisz w pliku **app.js**, chyba że treść polecenia wskazuje inaczej.
 Pamiętaj, żeby oddzielać ćwiczenia komentarzami i pisać czytelny, dobrze sformatowany kod.
 
+## Zadanie rozwiązywane z wykładowcą
+
+Napisz funkcję ```distFromAvarage```, która ma przyjmować tylko jeden argument &ndash; tablicę. Funkcja ta ma zwracać też tablicę. Zwracana tablica powinna mieć w sobie różnicę pomiędzy liczbą z danej komórki a średnią wartością tablicy. Dla uproszczenia możesz użyć funkcji z poprzedniego zadania.
+Np.
+
+```JavaScript
+distFromAvarage([1,2,3,4,5,6,7]) => [3,2,1,0,1,2,3] (średnia z tablicy wejściowej to 4)
+distFromAvarage([1,1,1,1]) => [0,0,0,0] (średnia z tablicy wejściowej to 1)
+distFromAvarage([2,8,3,7]) => [3,3,2,2] (średnia z tablicy wejściowej to 5)
+```
+------------------------------------------------------------------------------------------------------------
+## Zadania do samodzielnego wykonania
 
 ## Zadanie 1 (~ 5min - 10 min)
 
@@ -39,19 +51,7 @@ getEvenAvarage([1,1,1,1]) => null
 getEvenAvarage([2,8,3,7,4]) => 4.666
 ```
 
-## Zadanie 6 (~ 15min - 20 min)
-
-Napisz funkcję ```distFromAvarage```, która ma przyjmować tylko jeden argument &ndash; tablicę. Funkcja ta ma zwracać też tablicę. Zwracana tablica powinna mieć w sobie różnicę pomiędzy liczbą z danej komórki a średnią wartością tablicy. Dla uproszczenia możesz użyć funkcji z poprzedniego zadania.
-Np.
-
-```JavaScript
-distFromAvarage([1,2,3,4,5,6,7]) => [3,2,1,0,1,2,3] (średnia z tablicy wejściowej to 4)
-distFromAvarage([1,1,1,1]) => [0,0,0,0] (średnia z tablicy wejściowej to 1)
-distFromAvarage([2,8,3,7]) => [3,3,2,2] (średnia z tablicy wejściowej to 5)
-```
-
-
-## Zadanie 7  (~ 15min - 20 min)
+## Zadanie 6  (~ 15min - 20 min)
 
 Napisz funkcję ```sortArray```, która ma przyjmować tylko jeden argument &ndash; tablicę zawierającą  liczby całkowite. Funkcja ta ma zwracać posortowaną rosnąco tablicę. Możesz skorzystać z metod tablicowych.
 
@@ -59,7 +59,7 @@ Napisz funkcję ```sortArray```, która ma przyjmować tylko jeden argument &nda
 sortArray([145,11,3,64,4,6,10]) => [3,4,6,10,11,64,145]
 ```
 
-## Zadanie 8  (~ 15min - 20 min)
+## Zadanie 7  (~ 15min - 20 min)
 
 Napisz funkcję ```addArrays```, która ma przyjmować dwa argumenty &ndash; dwie tablice  zawierające  liczby całkowite. Funkcja ta ma zwracać również tablicę, która będzie wynikiem dodawania każdego elementu o tym samym indeksie. Jeżeli, tablice nie są równe, elementy nadmiarowe są przepisywane do nowej tablicy.
 ```JavaScript

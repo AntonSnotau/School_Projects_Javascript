@@ -70,7 +70,7 @@ Plik HTML do tego zadania to plik **searchDom.html**, a plik js to **searchDom.j
 
 ### Dzień 3 - DOM
 
-## Zadanie 1
+#### Zadanie 1
 
 Plik HTML do tego zadania to plik **pizza.html**, a plik js to **pizza.js**.
 

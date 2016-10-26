@@ -3,6 +3,19 @@
 > Odpowiedzi wpisz w odpowiednich plikach, chyba że treść polecenia wskazuje inaczej.
 Pamiętaj, żeby oddzielać ćwiczenia komentarzami i pisać czytelny, dobrze sformatowany kod.
 
+## Zadanie rozwiązywane z wykładowcą (Zróbcie go wspólnie z grupą)
+
+Znajdź i zapisz do zmiennych następujące elementy:
+1. Element o **klasie** ```first``` -> jego pierwsze dziecko -> jego trzecie dziecko.
+2. Element o **id** ```second``` -> jego rodzic -> jego czwarte dziecko.
+3. Element o **atrybucie** ```data-ex``` nastawionym na wartość ```third``` -> jego dziadek -> jego ostatnie dziecko -> jego pierwsze dziecko -> jego środkowe dziecko (żeby otrzymać środkowy element, podziel liczbę dzieci przez dwa i zaokrąglij w górę).
+4. **Div** o **klasie** ```forth``` -> jego rodzic -> jego pierwsze dziecko o tagu ```article``` -> jego drugie dziecko o tagu ```<p>```.
+
+Wszystkie te elementy mają atrybut ```data-answer``` nastawiony na numer zadania, dla którego są odpowiedzią.
+
+-------------------------------------------------------------------------------
+
+## Zadania do samodzielnego wykonania
 
 ## Zadanie 1 (~ 10min - 15min)
 
@@ -36,13 +49,3 @@ W pliku znajdują się trzy listy (każda osadzona w elemencie ```div```). Po na
 Rozwiązanie musi spełniać następujące założenia:
 1. Na wszystkie divy musi być założony ten sam event.
 2. Elementy listy mają być wyszukane w zależności od ```this```.
-
-## Zadanie 4 (~ 15min - 20min)
-
-Znajdź i zapisz do zmiennych następujące elementy:
-1. Element o **klasie** ```first``` -> jego pierwsze dziecko -> jego trzecie dziecko.
-2. Element o **id** ```second``` -> jego rodzic -> jego czwarte dziecko.
-3. Element o **atrybucie** ```data-ex``` nastawionym na wartość ```third``` -> jego dziadek -> jego ostatnie dziecko -> jego pierwsze dziecko -> jego środkowe dziecko (żeby otrzymać środkowy element, podziel liczbę dzieci przez dwa i zaokrąglij w górę).
-4. **Div** o **klasie** ```forth``` -> jego rodzic -> jego pierwsze dziecko o tagu ```article``` -> jego drugie dziecko o tagu ```<p>```.
-
-Wszystkie te elementy mają atrybut ```data-answer``` nastawiony na numer zadania, dla którego są odpowiedzią.

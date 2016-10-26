@@ -1,7 +1,30 @@
-# Obiekty &ndash; zadania
+ # Obiekty &ndash; zadania
 
 > Odpowiedzi wpisz w pliku **app.js**, chyba że treść polecenia wskazuje inaczej.
 Pamiętaj, żeby oddzielać ćwiczenia komentarzami i pisać czytelny, dobrze sformatowany kod.
+
+## Zadanie rozwiązywane z wykładowcą
+
+Za pomocą prototypu dodaj metodę ```upperLower``` do wbudowanego w JavaScript obiektu ```String```. Metoda zamieni podany ciąg znaków tak, że każdy znak nieparzysty w wyrazie będzie zamieniony na mała literę, a parzysty &ndash; na duża. Jeśli w ciągu występuje spacja, pomiń ją.
+Po rozwiązaniu zadania pomyśl, czy można funkcję zapisać w inny, łatwiejszy sposób.
+
+```JavaScript
+ input ->
+var funnyText = "Smiesznie".upperLower();
+
+output ->
+sMiEsZnIe
+
+-> input
+var funnyTextWithSpace = "Javascript jest super".upperLower();
+
+output ->
+jAvAsCrIpT jEsT sUpEr
+```
+
+-------------------------------------------------------------------------------
+
+## Zadania do samodzielnego wykonania
 
 ## Zadanie 1 (~ 5min - 7min)
 

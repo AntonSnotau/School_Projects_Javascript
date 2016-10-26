@@ -3,6 +3,33 @@
 > Odpowiedzi wpisz w pliku **app.js**, chyba że treść polecenia wskazuje inaczej.
 Pamiętaj, żeby oddzielać ćwiczenia komentarzami i pisać czytelny, dobrze sformatowany kod.
 
+## Zadanie rozwiązywane z wykładowcą
+
+Napisz funkcję ```checkArray``` przyjmującą jako argument tablicę dwuwymiarową z liczbami całkowitymi.
+Funkcja ma zwrócić nową tablicę, w której kolejnymi elementami będą wartości boolean ```true``` lub ```false```, zależne od tego, czy każdy element tablicy drugiego wymiaru jest parzysty.
+
+```JavaScript
+var arr = [
+[11, 12],
+[42, 2],
+[-4, -120],
+[0, 0],
+[1, 34],
+];
+
+output
+
+var arrayCheck = [
+false, // bo 11
+true,
+true,
+true,
+false, // bo 1
+];
+```
+--------------------------------------------------------------------
+## Zadania do samodzielnego wykonania
+
 ## Zadanie 1 (~ 5min - 10 min)
 
 W pliku **app.js** masz tablicę o nazwie ```task1Array```. Następnie:
