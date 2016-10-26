@@ -40,6 +40,7 @@ pigeon.sayVoice("gru gru");
 ```
 
 #### 3. setInterval & clearInterval
+> Ustaw interwały / powtórzenia
 
 ```JavaScript
 var id = setInterval(function() {
@@ -50,6 +51,16 @@ clearInterval(id);
 ```
 
 #### 4. setTimeOut & clearSetTimeout
+> Wykonaj kod po podanym czasie
+
+```
+JavaScript
+var id = setTimeout(function() {
+    setOpacity(1);
+}, 1000);
+
+clearSetTimeout(id);
+```
 
 #### 5 Różne rodzaje eventów
 
@@ -61,22 +72,29 @@ button.addEventListener('click', function(){
 })
 ```
 
-* keyup
+* keyup/keydown/keypress
 ```JavaScript
 var inputField = document.getElementById('name');
 inputField.addEventListener('keyup', function(){
     console.log('hurra wpisano tekst');
 })
 ```
+**keyup** - uruchamiany kiedy puszczasz klawisz;
+**keydown** - uruchamiany kiedy klawisz jest wciśnięty;
+**keypress** - uruchamiany kiedy klawisz jest wciśnięty, ale oddaje wpisany znak ukryty pod klawiszem, a nie numer klawisza tak jak poprzednie. Zobacz różnicę - http://jsfiddle.net/user2314737/543zksjc/3/show/
 
 
-* change
-
-
-* hover
-* mouseeneter
-* mouseLeave
-* mousemove
+* mouseeneter/mouseleave/mousemove/mouseover
+```JavaScript
+var myButton = document.getElementById('myButton');
+myButton.addEventListener('mouseeneter', function(){
+    console.log('hurra najechano na element');
+})
+```
+**mouseeneter** - uruchamiany raz kiedy wjeżdżasz kursorem na element, ale nie reaguje na dzieci;
+**mouseover** - uruchamiany raz kiedy wjeżdżasz kursorem  nad element i jego dzieci;
+**mouseleave** - uruchamiany kiedy zjedziesz kursorem z elementu;
+**mousemove** - uruchamiany kiedy wykonujesz ruch kursorem jest nad elementem i jego dziećmi.
 
 
 #### 6. Pobieranie różnych wartości z elementów z formularza
@@ -109,7 +127,6 @@ msgField.value;
 var selectField = document.getElementById('infos');
 selectField.options[msgField.selectedIndex].value;
 ```
-
 Ustawienie
 ```JavaScript
 var selectField = document.getElementById('infos');
