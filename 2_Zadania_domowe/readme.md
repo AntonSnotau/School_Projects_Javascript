@@ -48,8 +48,7 @@ Plik HTML do tego zadania to plik **searchDom.html**, a plik js to **searchDom.j
 * **2. Szukanie elementu po id:**
     - Znajdź element o **id** ```main-contener```.
     - stwórz funkcję ```getElementClass(element)``` do której przekaż , jako argument , znaleziony element.
-    - stwórz w funkcji tablicę i wypełnij ją nazwamy klas. Pobierz klasy z przekazanego jako argument elementu.
-    - zwróć tablicę.
+    - zwróć tablicę złożoną z nazw klas tego elementu.
 
 * **3. Szukanie elementu po klasie:**
     - Znajdź element o **klasie** ```pink-color```.
@@ -76,10 +75,12 @@ Plik HTML do tego zadania to plik **pizza.html**, a plik js to **pizza.js**.
 
 Na stronie znajduje się formularz do zamówienia pizzy. W formularzu znajduje się pole z checkboxami, w którym użytkownik może wybrać sobie dodatki.
 Cena każdego z dodatków jest trzymana w atrybucie ```data-price```.
-Napisz takie eventy, żeby po zaznaczeniu checkoxa wyświetlała się poprawna kwota zamówienia oraz po wysłaniu formularza wyświetlił się alert z wyliczoną kwotą.
+Napisz takie eventy, żeby po zaznaczeniu checkoxa wyświetlała się poprawna kwota zamówienia oraz po wysłaniu formularza
+wewnątrz elementu ```page-info``` wyświetliła się następująca informacja: **"Do zapłaty: [odpowiednia kwota]"**, gdzie [odpowiednia kwota] to wartość zamówienia. Pamiętaj o tym, że kliknięcie w przycisk wywołuje domyślną akcję przeładowania strony. Zablokuj tą akcję, aby móc zobaczyć wpisaną informację do elmentu ```page-info```.
+
 Zwróć uwagę na dwa specjalne checkboksy:
-* none &ndash; powinien odznaczyć wszystkie inne opcje,
-* all &ndash; powinien zaznaczyć wszystkie inne opcje (poza none).
+* Wyczyść &ndash; powinien odznaczyć wszystkie inne opcje,
+* Wszystkie dodatki &ndash; powinien zaznaczyć wszystkie inne opcje (poza none).
 
 ### Dodatkowe
 
