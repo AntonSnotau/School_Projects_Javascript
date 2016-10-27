@@ -15,7 +15,7 @@ Pamiętaj o tym, aby nie chować wszystkich elementów naraz.
 Zmodyfikuj poprzednie zadanie w taki sposób, aby chowanie elementu ```children```
 było wykonywane za pomocą funkcji ```hideChildrenElement()```. Wykorzystaj wiedzę o ```this```.
 
-Stwórz funkcję wewnątrz funkcji eventu.
+Stwórz funkcję wewnątrz funkcji eventu. Wykorzystaj konstrukcję poniżej:
 
 ```JavaScript
 parent.addEventListener("nazwaEventu", function() {
