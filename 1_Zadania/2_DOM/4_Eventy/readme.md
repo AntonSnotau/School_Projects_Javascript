@@ -5,10 +5,26 @@ Pamiętaj, żeby oddzielać ćwiczenia komentarzami i pisać czytelny, dobrze sf
 
 ## Zadanie rozwiązywane z wykładowcą
 
+### 1
 Uruchom stronę zadanieWykladowca.html.  Na stronie znajdują się dwa elementy o klasach ```parent``` i ```children```
 Stwórz event, który po najechaniu na element ```parent``` pokaże element ```children```. Zauważ, że element ```children``` ma ustawiony display: none w css.
 Stwórz drugi event, który po zjechaniu z elementów schowa spowrotem element ```children```.
+Pamiętaj o tym, aby nie chować wszystkich elementów naraz.
 
+### 2
+Zmodyfikuj poprzednie zadanie w taki sposób, aby chowanie elementu ```children```
+było wykonywane za pomocą funkcji ```hideChildrenElement()```. Wykorzystaj wiedzę o ```this```.
+
+Stwórz funkcję wewnątrz funkcji eventu.
+
+```JavaScript
+parent.addEventListener("nazwaEventu", function() {
+
+    function hideChildrenElement(){
+
+    }
+})
+```
 -------------------------------------------------------------------------------
 
 ## Zadania do samodzielnego wykonania
@@ -62,3 +78,9 @@ Uruchom stronę przygotowaną dla zadania 7. Na stronie znajdują się zagnieżd
 ## Zadanie 8 (~ 10min - 15min)
 Uruchom stronę przygotowaną dla zadania 8.
 Na stronie znajdują się dwa elementy, które pokazują wielkość okna. Dopisz event do okna (element ```window```), który spowoduje, że elementy te będą pokazywały poprawne wartości nawet po przeskalowaniu okna.
+
+## Zadanie 9 (10 - 15min)
+Uruchom stronę przygotowaną dla zadania 9. Prześledź dokładnie kod i przeczytaj komentarze.
+Skoncentruj się na każdej linijce kodu. Zastanów się nad taką sytuacją:
+Potrzebujesz użyć elementu o id ```b``` wewnątrz funkcji ```innerFuncOne```, żeby zmienić mu kolor.
+Jak to zrobisz?
