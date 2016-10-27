@@ -5,13 +5,13 @@ Pamiętaj, żeby oddzielać ćwiczenia komentarzami i pisać czytelny, dobrze sf
 
 ## Zadanie rozwiązywane z wykładowcą
 
-### 1
+#### 1
 Uruchom stronę zadanieWykladowca.html.  Na stronie znajdują się dwa elementy o klasach ```parent``` i ```children```
 Stwórz event, który po najechaniu na element ```parent``` pokaże element ```children```. Zauważ, że element ```children``` ma ustawiony display: none w css.
-Stwórz drugi event, który po zjechaniu z elementów schowa spowrotem element ```children```.
+Stwórz drugi event, który po zjechaniu z elementów schowa z powrotem element ```children```.
 Pamiętaj o tym, aby nie chować wszystkich elementów naraz.
 
-### 2
+#### 2
 Zmodyfikuj poprzednie zadanie w taki sposób, aby chowanie elementu ```children```
 było wykonywane za pomocą funkcji ```hideChildrenElement()```. Wykorzystaj wiedzę o ```this```.
 
