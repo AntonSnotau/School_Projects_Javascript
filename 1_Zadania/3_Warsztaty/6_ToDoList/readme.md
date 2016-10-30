@@ -1,5 +1,5 @@
 # JavaScript &ndash; warsztaty
-## Slider
+## ToDO
 
 Napisz listę zadań do zrobienia. Strona ma spełniać następujące założenia:
 

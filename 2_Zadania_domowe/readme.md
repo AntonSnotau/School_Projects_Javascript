@@ -1,5 +1,7 @@
 # JavaScript - zadania domowe
-> Wszystkie zadania rozwiązuj w funkcjach. Jeśli Twoje funkcje nie będą zwracały wartości nie będą zaliczone. Możesz wypisywać w konsoli informacje, ale nie myl tego ze zwracaniem wartości.
+> Czytaj dokładnie opisy do zadań. Jeśli w zadaniu jest napisane, żeby napisać funkcje
+o konkretnej nazwie to taką nazwę właśnie przyjmij dla swojej funkcji. Jeśli w zadaniu jest
+powiedziane, że należy zwrócić tablicę to zwróć tablicę.
 
 > Zadania z dopiskiem "dodatkowe" są dla chętnych. Znajdziesz je na końcu.
 
@@ -81,6 +83,8 @@ wewnątrz elementu ```page-info``` wyświetliła się następująca informacja: 
 Zwróć uwagę na dwa specjalne checkboksy:
 * Wyczyść &ndash; powinien odznaczyć wszystkie inne opcje,
 * Wszystkie dodatki &ndash; powinien zaznaczyć wszystkie inne opcje (poza none).
+
+-------------------------------------------------------------------------------
 
 ### Dodatkowe
 
