@@ -1,11 +1,12 @@
 # JavaScript - zadania domowe
-> Czytaj dokładnie opisy do zadań. Jeśli w zadaniu jest napisane, żeby napisać funkcje
-o konkretnej nazwie to taką nazwę właśnie przyjmij dla swojej funkcji. Jeśli w zadaniu jest
-powiedziane, że należy zwrócić tablicę to zwróć tablicę.
+> Kod wpisz w odpowiednim pliku, zgodnie z poleceniem zadania.
+BARDZO WAŻNE - Wasze zadania są sprawdzanie przy pomocy automatycznego systemu. Żeby odpowiedzi zostały uznane za poprawne strony MUSZĄ wyświetlać te same komunikaty co w treści zadania, a funkcjie i metody MUSZĄ posiadać nazwy dokładnie takie same jak podane
+w zadaniu.
 
 > Zadania z dopiskiem "dodatkowe" są dla chętnych. Znajdziesz je na końcu.
 
 ### Dzień 1 - Podstawy JavaScript
+> Zadania 1-3 wykonuj w pliku app.js
 
 #### Zadanie 1
 Napisz funkcję ```getNumber```, która ma przyjmować dwa argumenty &ndash; liczbę i tablicę. Funkcja ta ma zwracać wartość true lub false, w zależności od tego czy podana liczba znajduje się w tablicy czy nie.
@@ -32,6 +33,7 @@ Dopisz do konstruktora również metodę ```bloom()```, która będzie zwracała
 
 
 ### Dzień 2 - DOM
+> Zadanie 1 wykonaj w pliku searchDom.js
 
 #### Zadanie 1
 
@@ -71,6 +73,8 @@ Plik HTML do tego zadania to plik **searchDom.html**, a plik js to **searchDom.j
 
 ### Dzień 3 - DOM
 
+> Zadanie 1 wykonaj w pliku pizza.js
+
 #### Zadanie 1
 
 Plik HTML do tego zadania to plik **pizza.html**, a plik js to **pizza.js**.
@@ -87,6 +91,8 @@ Zwróć uwagę na dwa specjalne checkboksy:
 -------------------------------------------------------------------------------
 
 ### Dodatkowe
+
+> Wszystkie zadania dodatkowe wykonaj w pliku app.js
 
 #### Zadanie 1 - dodatkowe
 Napisz funkcję ```addTheSameNumbers```, która ma przyjmować dwa argumenty &ndash; liczbę i tablicę. Funkcja ta ma zwracać sumę
