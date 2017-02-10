@@ -7,7 +7,7 @@ Pamiętaj, żeby oddzielać ćwiczenia komentarzami i pisać czytelny, dobrze sf
 
 ### Znajdź róźnice  (~ 10min - 15min)
 
-Napisz funkcję ```distFromAvarage```, która ma przyjmować tylko jeden argument &ndash; tablicę. Funkcja ta ma zwracać też tablicę. Zwracana tablica powinna mieć w sobie różnicę pomiędzy liczbą z danej komórki a średnią wartością tablicy. Dla uproszczenia możesz użyć funkcji z poprzedniego zadania.
+Napisz funkcję ```distFromAvarage```, która ma przyjmować tylko jeden argument &ndash; tablicę. Funkcja ta ma zwracać też tablicę. Zwracana tablica powinna mieć w sobie różnicę pomiędzy liczbą z danej komórki a średnią wartością tablicy.
 Np.
 
 ```JavaScript
