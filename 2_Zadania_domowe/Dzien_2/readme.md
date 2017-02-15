@@ -16,7 +16,7 @@ Plik HTML do tego zadania to plik **searchDom.html**, a plik js to **searchDom.j
  * **1. Pobranie informacji z atrybutu data:**
     - znajdź element o **id** ```menu```,
     - stwórz funkcję ```getDataInfo(element)``` do której przekaż , jako argument , znaleziony element,
-    - stwórz w funkcji nową tablicę i wypełnij ją wartościami pobranymi z atrybutu data każdego elementu **li**. Zauważ, że
+    - stwórz w funkcji nową tablicę i wypełnij ją wartościami pobranymi z atrybutu data-info każdego elementu **li**. Zauważ, że
     elementy **li** to dzieci elementu o id ```menu```.
     - zwróć tą tablicę.
 
