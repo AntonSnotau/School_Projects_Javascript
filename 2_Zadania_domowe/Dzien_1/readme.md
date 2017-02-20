@@ -1,7 +1,7 @@
 # JavaScript - zadania domowe
 > Kod wpisz w odpowiednim pliku, zgodnie z poleceniem zadania.
 BARDZO WAŻNE - Wasze zadania są sprawdzanie przy pomocy automatycznego systemu. Żeby odpowiedzi zostały uznane za poprawne strony MUSZĄ wyświetlać te same komunikaty co w treści zadania, a funkcjie i metody MUSZĄ posiadać nazwy dokładnie takie same jak podane
-w zadaniu.
+w zadaniu. NIE UŻYWAJ DOMContentLoaded. Chodzi o to, aby funkcje, które są wspomniane w treści zadań nie były "opakowane" w inne. 
 
 ## Dzień 1
 > Zadania 1-3 wykonuj w pliku app.js
