@@ -3,7 +3,7 @@
 BARDZO WAŻNE - Wasze zadania są sprawdzanie przy pomocy automatycznego systemu. Żeby odpowiedzi zostały uznane za poprawne strony MUSZĄ wyświetlać te same komunikaty co w treści zadania, a funkcjie i metody MUSZĄ posiadać nazwy dokładnie takie same jak podane
 w zadaniu.
 
-## Dzień 2 - DOM
+## Dzień 3 - Eventy
 > Zadanie 1 wykonaj w pliku eventy.js
 
 #### Zadanie 1
