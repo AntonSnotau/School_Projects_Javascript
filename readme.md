@@ -24,9 +24,6 @@ Przed przystąpieniem do rozwiązywania zadań przeczytaj poniższe wskazówki
 * 2_Snippety
     * Tutaj znajdziesz kawałki kodu, które mogą byc Ci potrzebne w trakcie rozwiązywania zadań o javascript.
 
-* 3_Zadania_domowe
-    * Te zadania wykonaj samodzielnie w domu. Będą one sprawdzane przez mentora. Spytaj go również jaki jest nieprzekraczalny termin nadsyłania rozwiązań.
-
 
 
 Poszczególne zadania rozwiązuj w nowych plikach.
