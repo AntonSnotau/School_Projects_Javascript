@@ -27,7 +27,7 @@ Plik HTML do tego zadania to plik **searchDom.html**, a plik js to **searchDom.j
 
 * **3. Szukanie elementu po klasie:**
     - Znajdź element o **klasie** ```pink-color```.
-    - stwórz funkcję ```getElementText(element)``` do której przekaż , jako argument , znaleziony element.
+    - stwórz funkcję ```getElementText(element)``` do której przekaż , jako argument , znalezione elementy.
     - zwróć z funkcji tekst, znajdujący się w tym elemencie
 
 * **4. Szukanie elementu po klasie:**
