@@ -27,7 +27,7 @@ Jest to tak zwana macierz jednostkowa, czyli taka, która ma na przekątnej jedy
 Za pomocą kontruktora stwórz funkcję ```Tree```. Niech funkcja ta ma jedną właściwość ```type```, która będzie przechowywać typ drzewa.
 Następnie stwórz 2-3 instancje (obiekty) na podstawie konstruktora Tree, będące różnymi drzewami.
 
-Dopisz do konstruktora również metodę ```bloom()```, która będzie zwracała tekst "I'm blooming". Sprawdź za pomocą metody ```hasOwnProperty()```, czy metoda ta została stworzona dla każdej instancji osobno? Jeśli tak zoptymalizuj kod dodając ją do prototypu funkcji ```Tree```.
+Dopisz do konstruktora również metodę ```bloom()```, która będzie zwracała tekst "I am blooming". Sprawdź za pomocą metody ```hasOwnProperty()```, czy metoda ta została stworzona dla każdej instancji osobno? Jeśli tak zoptymalizuj kod dodając ją do prototypu funkcji ```Tree```.
 
 
 ### Dodatkowe
