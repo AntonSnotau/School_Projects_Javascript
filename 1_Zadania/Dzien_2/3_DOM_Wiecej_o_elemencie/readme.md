@@ -1,3 +1,5 @@
+<img alt="Logo" src="http://coderslab.pl/svg/logo-coderslab.svg" width="400">
+
 # Więcej o elemencie, wpływanie na element DOM
 
 > Strona **index.html** jest podzielona na części do każdego zadania.
