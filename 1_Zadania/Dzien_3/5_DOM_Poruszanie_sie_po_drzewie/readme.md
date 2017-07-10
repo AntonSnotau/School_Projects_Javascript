@@ -1,3 +1,5 @@
+<img alt="Logo" src="http://coderslab.pl/svg/logo-coderslab.svg" width="400">
+
 # Poruszanie się po drzewie DOM
 
 > Odpowiedzi wpisz w odpowiednich plikach, chyba że treść polecenia wskazuje inaczej.
