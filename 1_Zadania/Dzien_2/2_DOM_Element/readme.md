@@ -1,3 +1,5 @@
+<img alt="Logo" src="http://coderslab.pl/svg/logo-coderslab.svg" width="400">
+
 # Korzystanie z elementów DOM
 
 > Odpowiedzi wpisz w pliku **app.js**, chyba że treść polecenia wskazuje inaczej.
