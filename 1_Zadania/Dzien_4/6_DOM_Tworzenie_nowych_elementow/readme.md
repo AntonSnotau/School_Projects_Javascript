@@ -1,3 +1,5 @@
+<img alt="Logo" src="http://coderslab.pl/svg/logo-coderslab.svg" width="400">
+
 # Tworzenie i usuwanie elementów
 
 > Odpowiedzi wpisz w odpowiednich plikach, chyba że treść polecenia wskazuje inaczej.
