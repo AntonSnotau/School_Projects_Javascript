@@ -46,9 +46,43 @@ var task2Array = [
                   [9, 10, 11, 12]
             ];
 
-for (var i = 0; i < task2Array[0].length; i++) {
-  console.log(task2Array[0][i]);
+for (var i = 0; i < task2Array.length; i++) {
+  console.log(task2Array[i]);
 }
 for (var i = 0; i < task2Array.length; i++) {
-  var length = 
+  console.log(task2Array[i].length);
 }
+for (var i = 0; i < task2Array.length; i++) {
+  for (var j = 0; j < task2Array[i].length; j++) {
+    console.log(task2Array[i][j]);
+  }
+}
+//3,4//
+function print2DArray(tab2d) {
+  for (var i = 0; i < tab2d.length; i++) {
+    for (var j = 0; j < tab2d[i].length; j++) {
+      console.log(tab2d[i][j]);
+    }
+  }
+}
+var task3Array = [
+                  [1, 2, 3, 4],
+                  [5, 6, 7, 8],
+                  [9, 10, 11, 12, 13]
+            ];
+print2DArray(task3Array);
+//5//
+function create2DArray(a,b) {
+  var newtab = [];
+  var el = 0;
+  for (var i = 0; i < a; i++) {
+    var tab = [];
+    for (var j = 0; j < b; j++) {
+      el = Math.floor(Math.random()*10);
+      tab.push(el);
+    }
+    newtab.push(tab);
+  }
+  return newtab;
+}
+console.table(create2DArray(4,8));
