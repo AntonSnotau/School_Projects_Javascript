@@ -15,13 +15,13 @@ document.addEventListener("DOMContentLoaded", function() {
       // Tutaj this wskazuje na element DOM o id b
       console.log("b: ", this);
 
-
-      function innerFuncOne(){
+      function innerFuncOne(p){
           // Tutaj this wskazuje na element Window, bo funkcja została
           //wywołana bez żadnego kontekstu.
           console.log("innerFuncOne: ", this);
+          p.style.backgroundColor = "black";
       }
-      innerFuncOne();
+      innerFuncOne(b);
 
     });
 

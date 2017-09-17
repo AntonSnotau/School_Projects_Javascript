@@ -29,3 +29,18 @@ function createIdentityMatrix(x, y) {
 console.table(createIdentityMatrix(10, 10));
 
 //3//
+
+function Tree(type) {
+
+  this.type = type;
+  this.bloom = function () { console.log("I am blooming")};
+
+  }
+
+
+var wierzba = new Tree("wierzba");
+var sosna = new Tree("sosna");
+var kasztan = new Tree("kasztan");
+
+console.log(wierzba);
+console.log(wierzba.hasOwnProperty('type'));
