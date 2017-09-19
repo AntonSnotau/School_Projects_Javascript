@@ -2,7 +2,8 @@
  * Created by Jacek on 2016-01-12.
  */
 document.addEventListener("DOMContentLoaded", function(){
-var menu = document.querySelector("#menu");
+
+var menu = document.querySelector("#");
 var paragraf = document.querySelector("p");
 
 menu.classList.add("menu");
