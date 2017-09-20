@@ -5,6 +5,7 @@ document.addEventListener("DOMContentLoaded", function(){
   var checkbox = document.querySelectorAll('input');
   var total = document.querySelector('#price');
   var sum = 0;
+  var fin = document.querySelector('#fin');
 
 form.addEventListener('submit', function(e) {
   e.preventDefault();
@@ -26,24 +27,36 @@ form.addEventListener('submit', function(e) {
  }
   checkbox[0].addEventListener('change', function(){
     for (var i = 1; i < checkbox.length - 1; i++) {
-      var price = checkbox[i].getAttribute('data-price');
-      var pricenum = parseFloat(price);
-      sum = sum + pricenum;
-      total.innerText = sum + " zł";
-      checkbox[i].setAttribute('checked', '');
+      if (this.checked) {
+        checkbox[i].checked = true;
+        sum = 18.30;
+        total.innerText = sum + " zł";
+      }
+      else {
+        checkbox[i].checked = false;
+        sum = 0;
+        total.innerText = sum + " zł";
+      }
     }
   });
 
   checkbox[6].addEventListener('change', function(){
-    for (var i = 1; i < checkbox.length - 1; i++) {
-      checkbox[i].removeAttribute('checked');
-      total.innerText = "0 zł";
+    for (var i = 0; i < checkbox.length; i++) {
+      if (this.checked) {
+        checkbox[i].checked = false;
+        sum = 0;
+        total.innerText = sum + " zł";
+        fin.innerText = "";
+      }
     }
   });
 
   button.addEventListener('click', function(){
-
+    fin.innerText = "Do zapłaty: " + sum + " zł";
+    // form.submit();
   })
 });
 
-//trudno
+//zrobiłem, wysylanie formy zakomentowałem, żeby widzieć pole do zapłaty
+// pytania:
+//1. jak usunąć .00000000000001, przecież robi wszystkie matematyczne operacje przez JS popsutymi.
